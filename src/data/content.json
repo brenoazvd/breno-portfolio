@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T16:10:01.718Z",
+  "generatedAt": "2026-07-07T17:52:22.664Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
@@ -18,7 +18,7 @@
     ],
     "sections": {
       "summary": [
-        "Analista de dados com atuação em engenharia de dados e desenvolvimento full-stack. Estruturo dados de ponta a ponta: da modelagem do banco e dos pipelines ETL na nuvem (Azure) ao deploy da aplicação em VPS. Também construo automações, agentes de IA (servidores MCP, skills para coding agents) e dashboards que transformam dado bruto em decisão. Analista de dados pleno no Grupo OEP, onde lidero o Hub de Inovação, e cofundador da Lumra Insights."
+        "Analista de dados com atuação em engenharia de dados, backend e automação. Estruturo dados de ponta a ponta: da modelagem do banco e dos pipelines ETL na nuvem (Azure) ao deploy da aplicação em VPS. Também construo automações, agentes de IA (servidores MCP, skills para coding agents) e dashboards que transformam dado bruto em decisão. Analista de dados pleno no Grupo OEP, onde lidero o Hub de Inovação, e fundador da Lumra Insights."
       ],
       "experience": [
         {
@@ -35,12 +35,12 @@
         },
         {
           "company": "Lumra Insights",
-          "position": "Cofundador",
+          "position": "Fundador",
           "location": "São Paulo, Brasil",
           "start_date": "2026-01",
           "end_date": "present",
           "highlights": [
-            "Cofundação de uma iniciativa de software, dados e automação focada em transformar processos manuais em soluções digitais, com foco em impacto no terceiro setor.",
+            "Fundação, com um sócio, de uma iniciativa de software, dados e automação focada em transformar processos manuais em soluções digitais, com foco em impacto no terceiro setor.",
             "Entregas: plataforma de gestão para agentes ambientais (para um instituto do terceiro setor, em produção) e um sistema de gestão financeira para clínicas (TypeScript + MySQL)."
           ]
         },
@@ -372,14 +372,14 @@
     {
       "slug": "lumra-insights",
       "type": "Experience",
-      "title": "Cofundador — Lumra Insights",
+      "title": "Fundador — Lumra Insights",
       "description": "Iniciativa de software, tecnologia e análise de dados que transforma processos manuais em soluções digitais, com foco em impacto no terceiro setor.",
       "resource": null,
       "repoPublic": false,
       "tags": [
         "experiencia",
         "empreendedorismo",
-        "cofundador",
+        "fundador",
         "dados",
         "software",
         "terceiro-setor",
