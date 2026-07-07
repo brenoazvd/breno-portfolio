@@ -101,6 +101,15 @@ export function Curriculo() {
             .filter(Boolean)
             .join(" · ")}
         </p>
+        <p className="text-sm text-muted mt-1">
+          Portfólio:{" "}
+          <a
+            href="https://brenoazvd.github.io/breno-portfolio/"
+            className="border-b border-line hover:border-accent"
+          >
+            brenoazvd.github.io/breno-portfolio
+          </a>
+        </p>
       </header>
 
       {s.summary?.length ? (
