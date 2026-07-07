@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T17:52:22.664Z",
+  "generatedAt": "2026-07-07T18:04:40.704Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
@@ -22,7 +22,7 @@
       ],
       "experience": [
         {
-          "company": "Colégio Elvira Brandão",
+          "company": "Grupo OEP",
           "position": "Analista de Dados Pleno",
           "location": "São Paulo, Brasil",
           "start_date": "2026-06",
@@ -290,7 +290,7 @@
     {
       "slug": "elvira-analista-dados-pleno",
       "type": "Experience",
-      "title": "Analista de Dados Pleno — Colégio Elvira Brandão",
+      "title": "Analista de Dados Pleno — Grupo OEP",
       "description": "Liderança do Hub de Inovação, departamento que transforma os dados do grupo em processos e sistemas internos e origina novos projetos.",
       "resource": null,
       "repoPublic": false,
