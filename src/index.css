@@ -76,11 +76,13 @@ body {
     color: #000 !important;
   }
 
-  /* não quebrar no meio de um item/artigo/seção */
-  article, li { break-inside: avoid; }
+  /* Deixa as entradas fluírem entre páginas (evita buraco grande); só não
+     quebra no meio de um bullet nem separa um título do que vem depois. */
+  li { break-inside: avoid; }
   h1, h2, h3 { break-after: avoid; }
+  article { break-inside: auto; }
 
   @page {
-    margin: 1.4cm 1.6cm;
+    margin: 1.2cm 1.6cm;
   }
 }
