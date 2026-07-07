@@ -101,13 +101,28 @@ export function Curriculo() {
             .filter(Boolean)
             .join(" · ")}
         </p>
-        <p className="text-sm text-muted mt-1">
-          Portfólio:{" "}
+        <p className="text-sm text-muted mt-1 flex flex-wrap gap-x-4 gap-y-1">
           <a
             href="https://brenoazvd.github.io/breno-portfolio/"
             className="border-b border-line hover:border-accent"
           >
-            brenoazvd.github.io/breno-portfolio
+            Portfólio
+          </a>
+          <a
+            href="https://www.linkedin.com/in/breno-azevedo-9109b8232/"
+            target="_blank"
+            rel="noreferrer"
+            className="border-b border-line hover:border-accent"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/brenoazvd"
+            target="_blank"
+            rel="noreferrer"
+            className="border-b border-line hover:border-accent"
+          >
+            GitHub
           </a>
         </p>
       </header>

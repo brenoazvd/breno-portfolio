@@ -18,6 +18,22 @@ export function Contato() {
         >
           +55 11 99886-8176
         </a>
+        <a
+          href="https://www.linkedin.com/in/breno-azevedo-9109b8232/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-lg text-ink border-b border-line hover:border-accent pb-1 w-fit"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/brenoazvd"
+          target="_blank"
+          rel="noreferrer"
+          className="text-lg text-ink border-b border-line hover:border-accent pb-1 w-fit"
+        >
+          GitHub
+        </a>
       </div>
     </section>
   );
