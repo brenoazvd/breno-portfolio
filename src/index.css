@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+/* Direção C — minimalista, elegante, calmo. Tokens em DESIGN.md. */
+@theme {
+  --color-ground: #ffffff;
+  --color-ink: #1a1a17;
+  --color-muted: #6b665e;
+  --color-line: #e5e2da;
+  --color-accent: #3f5c50;
+
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: system-ui, "Segoe UI", Roboto, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  @theme {
+    --color-ground: #15140f;
+    --color-ink: #f2efe8;
+    --color-muted: #a29c90;
+    --color-line: #2c2a24;
+    --color-accent: #7fa394;
+  }
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  background: var(--color-ground);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Eyebrow / label utilitário */
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Print: só o currículo, tinta preta em fundo branco, sem nav/footer. */
+@media print {
+  .no-print { display: none !important; }
+
+  html, body {
+    background: #fff;
+    color: #000;
+    font-size: 10.5pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .cv-print {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  a { color: #000; text-decoration: none; }
+
+  /* Tudo em preto sólido no papel — as classes text-muted/text-ink/accent
+     renderizavam cinza claro e ficavam ilegíveis. */
+  .cv-print,
+  .cv-print * {
+    color: #000 !important;
+  }
+
+  /* não quebrar no meio de um item/artigo/seção */
+  article, li { break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; }
+
+  @page {
+    margin: 1.4cm 1.6cm;
+  }
+}

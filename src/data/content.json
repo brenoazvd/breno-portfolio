@@ -1,0 +1,732 @@
+{
+  "generatedAt": "2026-07-07T16:10:01.718Z",
+  "perfil": {
+    "name": "Breno Rodrigues Azevedo",
+    "location": "São Paulo, Brasil",
+    "email": "brenorazevedo@gmail.com",
+    "phone": "+55 11 99886-8176",
+    "website": "https://www.linkedin.com/in/breno-azevedo-9109b8232",
+    "social_networks": [
+      {
+        "network": "LinkedIn",
+        "username": "breno-azevedo-9109b8232"
+      },
+      {
+        "network": "GitHub",
+        "username": "brenoazvd"
+      }
+    ],
+    "sections": {
+      "summary": [
+        "Analista de dados com atuação em engenharia de dados e desenvolvimento full-stack. Estruturo dados de ponta a ponta: da modelagem do banco e dos pipelines ETL na nuvem (Azure) ao deploy da aplicação em VPS. Também construo automações, agentes de IA (servidores MCP, skills para coding agents) e dashboards que transformam dado bruto em decisão. Analista de dados pleno no Grupo OEP, onde lidero o Hub de Inovação, e cofundador da Lumra Insights."
+      ],
+      "experience": [
+        {
+          "company": "Colégio Elvira Brandão",
+          "position": "Analista de Dados Pleno",
+          "location": "São Paulo, Brasil",
+          "start_date": "2026-06",
+          "end_date": "present",
+          "highlights": [
+            "Promovido a Analista de Dados Pleno em jun/2026 por reconhecimento das soluções entregues.",
+            "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
+            "Desenho de processos e entrega de soluções que conectam as bases de dados já existentes aos sistemas internos, originando novos projetos."
+          ]
+        },
+        {
+          "company": "Lumra Insights",
+          "position": "Cofundador",
+          "location": "São Paulo, Brasil",
+          "start_date": "2026-01",
+          "end_date": "present",
+          "highlights": [
+            "Cofundação de uma iniciativa de software, dados e automação focada em transformar processos manuais em soluções digitais, com foco em impacto no terceiro setor.",
+            "Entregas: plataforma de gestão para agentes ambientais (para um instituto do terceiro setor, em produção) e um sistema de gestão financeira para clínicas (TypeScript + MySQL)."
+          ]
+        },
+        {
+          "company": "Colégio Elvira Brandão",
+          "position": "Analista de Dados (com atuação em Engenharia de Dados)",
+          "location": "São Paulo, Brasil",
+          "start_date": "2025-05",
+          "end_date": "2026-06",
+          "highlights": [
+            "Estruturação da área de dados das instituições do grupo, com dashboards estratégicos e automações que aumentaram a eficiência operacional e suportaram a tomada de decisão.",
+            "Construção de pipelines de dados (ETL) integrando sistemas como TOTVS, CRM (Kommo) e bases externas, garantindo consistência e disponibilidade das informações.",
+            "Arquitetura de dados em nuvem (Azure), com foco em escalabilidade e centralização.",
+            "Modelagem de dados e criação de Data Marts para suporte a BI e aplicações internas.",
+            "Power BI, Looker Studio, SQL e automações em Python, gerando insights para otimização de processos.",
+            "Integração de dados entre sistemas acadêmicos, administrativos e de captação, reduzindo retrabalho e inconsistências.",
+            "Expansão e padronização das soluções para mais 4 escolas do grupo (Oswald de Andrade, Piaget, Crescer Sempre e Carandá Educação)."
+          ]
+        },
+        {
+          "company": "Colégio Elvira Brandão",
+          "position": "Analista Administrativo Júnior",
+          "location": "São Paulo, Brasil",
+          "start_date": "2025-01",
+          "end_date": "2025-04",
+          "highlights": [
+            "Atuei na área de captação, desenvolvendo automações e dashboards para apoiar processos comerciais.",
+            "Criei soluções com CRM e análise de dados, contribuindo para tomadas de decisão."
+          ]
+        },
+        {
+          "company": "Colégio Elvira Brandão",
+          "position": "Estagiário de TI",
+          "location": "São Paulo, Brasil",
+          "start_date": "2024-05",
+          "end_date": "2024-12",
+          "highlights": [
+            "Desenvolvi e melhorei visualizações de dados utilizando Looker, Power BI e Excel, otimizando relatórios e auxiliando na tomada de decisões.",
+            "Ofereci suporte Helpdesk, gerenciei dispositivos e facilitei aulas maker.",
+            "Auxiliei na manutenção de sites educacionais e na instalação e remoção de softwares.",
+            "Analisei relatórios G Suite e facilitei a criação de projetos em Corel Draw e XYZ Pro."
+          ]
+        },
+        {
+          "company": "Caixa Residencial",
+          "position": "Atendente de Relacionamento Junior (Temporário)",
+          "location": "São Paulo, Brasil",
+          "start_date": "2023-06",
+          "end_date": "2023-12",
+          "highlights": [
+            "Atuei como atendente de informações gerais, aviso de sinistros, pagamentos e endossos e SAC, LGPD e ativo.",
+            "Ferramentas usadas: Salesforce, 3CX, Intergrall, Optimus e Tray Mutant.",
+            "Conhecimento em seguros residenciais e habitacionais."
+          ]
+        },
+        {
+          "company": "DMI Tecnologia e Sistemas de SP",
+          "position": "Assistente de Helpdesk (Estágio)",
+          "location": "São Paulo, Brasil",
+          "start_date": "2023-01",
+          "end_date": "2023-03",
+          "highlights": [
+            "Atuei com ERP (Enterprise Resource Planning), sistema de gestão integrado empresarial, dando suporte a módulos como faturamento, estoque e produção."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "FIAP Online (Unidade Aclimação)",
+          "area": "Data Analytics",
+          "degree": "Pós Tech",
+          "start_date": "2025-05",
+          "end_date": "2026-06",
+          "highlights": [
+            "Foco prático em coleta, tratamento, análise exploratória, geração de insights e visualização de dados.",
+            "Estatística aplicada, storytelling com dados, business intelligence, DataOps e governança de dados.",
+            "Carga horária de 360 horas, duração de 10 meses."
+          ]
+        },
+        {
+          "institution": "FIAP (Unidade Aclimação)",
+          "area": "Data Science: Big Data, BI & Data Engineering",
+          "degree": "Tecnólogo",
+          "start_date": "2022-01",
+          "end_date": "2024-12",
+          "highlights": [
+            "Modelagem de dados relacionais, dimensionais e estatísticos; SQL e Python; visualização e qualificação de dados.",
+            "Disciplinas: Architecture Analytics & NoSQL, Big Data Architecture & Data Integration, Data Governance & Data Security, Data Warehousing, Cloud Solutions, Deep Learning & AI, entre outras.",
+            "Média geral: 8.93"
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "fluency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "fluency": "Básico"
+        },
+        {
+          "language": "Espanhol",
+          "fluency": "Básico"
+        }
+      ],
+      "certifications": [
+        {
+          "label": "Árvores de Decisão: aprofundando em modelos de Machine Learning · Alura (mar/2025)"
+        },
+        {
+          "label": "Git e GitHub: compartilhando e colaborando em projetos · Alura (mar/2025)"
+        },
+        {
+          "label": "Git e GitHub: dominando controle de versão de código · Alura"
+        },
+        {
+          "label": "Formação: Aprenda a programar em Python com Orientação a Objetos · Alura (fev/2025)"
+        },
+        {
+          "label": "Python: avance na Orientação a Objetos e consuma API · Alura (fev/2025)"
+        },
+        {
+          "label": "Blockchain · FIAP (fev/2025)"
+        },
+        {
+          "label": "Python: aplicando a Orientação a Objetos · Alura (nov/2024)"
+        },
+        {
+          "label": "Python: crie a sua primeira aplicação · Alura (nov/2024)"
+        },
+        {
+          "label": "Power BI Desktop: construindo meu primeiro dashboard · Alura"
+        },
+        {
+          "label": "Python · FIAP (out/2024)"
+        },
+        {
+          "label": "Formação Social e Sustentabilidade · FIAP (out/2024)"
+        }
+      ],
+      "skills": [
+        {
+          "label": "Data Engineering",
+          "details": "ETL, Pipelines de dados, Data Marts, DataOps, Governança de dados"
+        },
+        {
+          "label": "Linguagens e ferramentas",
+          "details": "Python, SQL, FastAPI"
+        },
+        {
+          "label": "BI e visualização",
+          "details": "Power BI, Looker Studio, Tableau, Excel"
+        },
+        {
+          "label": "Cloud e integração",
+          "details": "Azure, integração de múltiplas fontes de dados, arquiteturas de microsserviços"
+        },
+        {
+          "label": "Machine Learning",
+          "details": "Modelos preditivos, árvores de decisão, deep learning, MLOps, APIs de IA generativa"
+        },
+        {
+          "label": "IA & Agentes",
+          "details": "Criação de agentes de IA, servidores MCP (Model Context Protocol), autoria de skills e subagents para coding agents (Claude Code, Codex, Antigravity), loop/context engineering"
+        },
+        {
+          "label": "DevOps e Cloud",
+          "details": "Deploy em VPS Linux (Docker, nginx, SSL), CI/CD com GitHub Actions, Azure Functions"
+        },
+        {
+          "label": "Versionamento",
+          "details": "Git, GitHub"
+        }
+      ]
+    }
+  },
+  "experiencias": [
+    {
+      "slug": "caixa-residencial",
+      "type": "Experience",
+      "title": "Atendente de Relacionamento Junior — Caixa Residencial",
+      "description": "Atendimento geral, sinistros e SAC em seguros residenciais e habitacionais.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "experiencia",
+        "atendimento",
+        "seguros"
+      ],
+      "start": "2023-06",
+      "end": "2023-12",
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [
+        "Atendimento a clientes: informações gerais, avisos de sinistro, pagamentos, endossos, SAC e LGPD.",
+        "Desenvolvimento de conhecimento em seguros residenciais e habitacionais."
+      ],
+      "flow": [],
+      "hasOpenGaps": false
+    },
+    {
+      "slug": "dmi-helpdesk",
+      "type": "Experience",
+      "title": "Assistente de Helpdesk — DMI Tecnologia e Sistemas de SP",
+      "description": "Suporte a ERP (faturamento, estoque, produção) e atendimento a usuários.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "experiencia",
+        "erp",
+        "sql",
+        "helpdesk"
+      ],
+      "start": "2023-01",
+      "end": "2023-03",
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [
+        "Atuação com ERP (Enterprise Resource Planning), auxiliando na gestão de módulos como faturamento, estoque, produção e SQL.",
+        "Resolução de problemas técnicos e suporte a usuários do sistema."
+      ],
+      "flow": [],
+      "hasOpenGaps": false
+    },
+    {
+      "slug": "elvira-administrativo-jr",
+      "type": "Experience",
+      "title": "Analista Administrativo Júnior — Colégio Elvira Brandão",
+      "description": "Automações e dashboards de apoio a processos comerciais de captação.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "experiencia",
+        "captacao",
+        "crm",
+        "dashboards"
+      ],
+      "start": "2025-01",
+      "end": "2025-04",
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [
+        "Atuação na área de captação: automações e dashboards para apoiar processos comerciais.",
+        "Soluções com CRM e análise de dados, contribuindo para tomada de decisão."
+      ],
+      "flow": [],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "elvira-analista-dados-pleno",
+      "type": "Experience",
+      "title": "Analista de Dados Pleno — Colégio Elvira Brandão",
+      "description": "Liderança do Hub de Inovação, departamento que transforma os dados do grupo em processos e sistemas internos e origina novos projetos.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "experiencia",
+        "data-engineering",
+        "lideranca",
+        "hub-inovacao",
+        "cargo-atual"
+      ],
+      "start": "2026-06",
+      "end": "present",
+      "timestamp": "2026-07-07T00:00:00.000Z",
+      "highlights": [
+        "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
+        "Desenho de processos e entrega de soluções que conectam as bases de dados já existentes aos sistemas internos que a equipe desenvolve.",
+        "Originação de novos projetos a partir dessa base de dados integrada."
+      ],
+      "flow": [],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "elvira-analista-dados",
+      "type": "Experience",
+      "title": "Analista de Dados Júnior — Colégio Elvira Brandão",
+      "description": "Estruturação da área de dados do grupo: pipelines ETL, dashboards, automação sobre o CRM Kommo e expansão das soluções para as 4 demais escolas do Grupo OEP.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "experiencia",
+        "data-engineering",
+        "etl",
+        "power-bi",
+        "python",
+        "azure"
+      ],
+      "start": "2025-05",
+      "end": "2026-06",
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [
+        "Dashboards dinâmicos, relatórios estratégicos e automações que aceleraram a tomada de decisões.",
+        "Pipelines de dados (ETL) integrando TOTVS, CRM Kommo e bases externas.",
+        "Arquitetura de dados em nuvem (Azure), com foco em escalabilidade e centralização.",
+        "Modelagem de dados e criação de Data Marts para suporte a BI.",
+        "Uso de Power BI, Looker Studio, Tableau, Excel, SQL e automações em Python.",
+        "Integração entre sistemas acadêmicos, administrativos e de captação, reduzindo retrabalho e inconsistências.",
+        "Desenvolvimento da [integração e automação sobre o CRM Kommo](../projetos/crm-proprio-captacao.md) (ETL, webhooks, calendar, e-mail) para o processo de captação de alunos.",
+        "Expansão e padronização das soluções de dados para as 4 demais escolas do Grupo OEP (Oswald de Andrade, Piaget, Crescer Sempre, Carandá Educação), substituindo processos manuais em planilhas por dashboards automatizados e pipelines centralizados."
+      ],
+      "flow": [],
+      "hasOpenGaps": false
+    },
+    {
+      "slug": "elvira-estagiario-ti",
+      "type": "Experience",
+      "title": "Estagiário de TI — Colégio Elvira Brandão",
+      "description": "Suporte Helpdesk, visualização de dados e manutenção de sistemas educacionais.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "experiencia",
+        "helpdesk",
+        "looker",
+        "power-bi",
+        "tableau"
+      ],
+      "start": "2024-05",
+      "end": "2024-12",
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [
+        "Visualizações de dados com Looker, Power BI, Tableau e Excel, otimizando relatórios e auxiliando na tomada de decisões.",
+        "Suporte Helpdesk, gestão de dispositivos e apoio a aulas maker.",
+        "Manutenção de sites educacionais, instalação e remoção de softwares.",
+        "Análise de relatórios G Suite e apoio na criação de projetos em Corel Draw e XYZ Pro."
+      ],
+      "flow": [],
+      "hasOpenGaps": false
+    },
+    {
+      "slug": "lumra-insights",
+      "type": "Experience",
+      "title": "Cofundador — Lumra Insights",
+      "description": "Iniciativa de software, tecnologia e análise de dados que transforma processos manuais em soluções digitais, com foco em impacto no terceiro setor.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "experiencia",
+        "empreendedorismo",
+        "cofundador",
+        "dados",
+        "software",
+        "terceiro-setor",
+        "cargo-atual"
+      ],
+      "start": "2026-01",
+      "end": "present",
+      "timestamp": "2026-07-05T00:00:00.000Z",
+      "highlights": [],
+      "flow": [],
+      "hasOpenGaps": true
+    }
+  ],
+  "projetos": [
+    {
+      "slug": "crm-proprio-captacao",
+      "type": "Project",
+      "title": "Integração e Automação do CRM Kommo (Captação de Alunos)",
+      "description": "ETL Kommo→Azure SQL + camada de automação (calendar, e-mail, webhooks) construída sobre o CRM Kommo para captação de alunos do grupo de escolas.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "crm",
+        "captacao",
+        "kommo",
+        "etl",
+        "integracao",
+        "automacao",
+        "azure"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [
+        "ETL Kommo → Azure SQL: sincroniza leads, funil, tags, contatos via Azure Function agendada (4x/dia, intercalado com o ETL do TOTVS), com merge incremental e auto-heal (detecta escola com leads sem bridge e força refresh).",
+        "Automação \"Confirmação da Visita\": ao criar/remarcar task de Visita no Kommo, webhook grava data no lead, move etapa no funil, cria evento no Google Calendar (via service account + Domain-Wide Delegation) e envia e-mail HTML personalizado ao responsável (Gmail API).",
+        "Editor de templates de e-mail com biblioteca de arquivos (upload de imagem/PDF com validação de segurança: allowlist de tipo, sanitização anti-injection e limite anti-DoS) e anexo automático, sem dependência de infra externa.",
+        "Integração com o Salesbot do Kommo (mensagens automáticas via WhatsApp Business, lembretes de 24h, tags de status), automação desenhada pelo cliente dentro do Kommo, com pontos de integração sincronizados no webhook próprio.",
+        "Dashboards de funil e conversão a partir dos dados sincronizados (Power BI + API própria com métricas por consultor, mediana/p90 de tempo de resposta, etc.)."
+      ],
+      "flow": [
+        "Kommo (CRM + WhatsApp)",
+        "Webhook / ETL (Azure Function)",
+        "Azure SQL",
+        "API (FastAPI)",
+        "Dashboard + Google Calendar / Gmail"
+      ],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "datathon-passos-magicos-ml",
+      "type": "Project",
+      "title": "Datathon Passos Mágicos (Machine Learning)",
+      "description": "Projeto de Machine Learning desenvolvido para o Datathon Passos Mágicos.",
+      "resource": "https://github.com/brenoazvd/datathon-passos-magicos-ml",
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "github",
+        "machine-learning",
+        "jupyter",
+        "competicao"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [],
+      "flow": [],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "elvirabe-totvs-sync-function",
+      "type": "Project",
+      "title": "Sincronização TOTVS → Azure SQL",
+      "description": "ETL em Python que sincroniza dados acadêmicos/financeiros do TOTVS RM para Azure SQL, agendado (cron) e executado a partir da VPS.",
+      "resource": "https://github.com/brenoazvd/elvirabe-totvs-sync-function",
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "github",
+        "azure",
+        "totvs",
+        "etl",
+        "python"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [],
+      "flow": [
+        "TOTVS RM",
+        "ETL na VPS (cron, 4x/dia)",
+        "Azure SQL",
+        "Camada NPS"
+      ],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "fin7",
+      "type": "Project",
+      "title": "Sistema de gestão financeira para clínicas",
+      "description": "Sistema de gestão financeira e operacional para clínicas em MySQL, integrando base própria com um sistema de gestão de clínicas de terceiro, entregue pela Lumra Insights.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "lumra",
+        "typescript",
+        "mysql",
+        "financeiro",
+        "saas"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-05T00:00:00.000Z",
+      "highlights": [
+        "Sistema de gestão financeira/operacional para clínicas: dashboards, gestão de usuários e clínicas, cadastro de colaboradores, auditoria.",
+        "Módulos financeiros: balancete, cobranças e pagamentos, conta corrente, contas a pagar, fluxo de caixa, previsto x realizado, curva ABC de pacientes.",
+        "Integração de fontes de dados em MySQL: base própria (login, usuários, cadastros, auditoria) + dados de um sistema de gestão de clínicas de terceiro (financeiro, somente leitura).",
+        "Autenticação com cookie criptografado + MFA por e-mail."
+      ],
+      "flow": [
+        "Sistema de clínicas de terceiro (MySQL, leitura) + Base própria (MySQL)",
+        "Backend TypeScript",
+        "Painéis EJS + DataTables"
+      ],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "gerente-sustentavel",
+      "type": "Project",
+      "title": "Plataforma de gestão estratégica para agentes ambientais",
+      "description": "Plataforma em produção que centraliza operações de uma rede de agentes ambientais, desenvolvida com Erick Kaik Dantas Barbosa.",
+      "resource": "https://github.com/brenoazvd/gerente-sustentavel",
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "github",
+        "azure",
+        "typescript",
+        "python",
+        "colaborativo",
+        "producao"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [
+        "Registro de atividades com participantes, horas e evidências.",
+        "Relatórios automatizados em PDF.",
+        "Feedbacks da coordenação.",
+        "Agenda e gestão de eventos.",
+        "Painel estratégico com indicadores em tempo real.",
+        "Integração com API e suporte offline."
+      ],
+      "flow": [
+        "Registro de atividades (agentes)",
+        "API (Python)",
+        "Azure SQL",
+        "Painel de indicadores + Relatórios PDF"
+      ],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "ibge-socioeconomico-elvira-brandao",
+      "type": "Project",
+      "title": "Análise socioeconômica com dados do IBGE",
+      "description": "Análise socioeconômica e financeira com dados do IBGE (Censo 2022) para as regiões do Colégio Elvira Brandão.",
+      "resource": "https://github.com/brenoazvd/ibge_socioeconomico_elvira-brandao",
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "github",
+        "ibge",
+        "analise-de-dados",
+        "python",
+        "publico"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [],
+      "flow": [],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "pnad-covid19",
+      "type": "Project",
+      "title": "PNAD-COVID-19 (Data Analytics)",
+      "description": "Projeto de Data Analytics com dados da PNAD-COVID-19 (IBGE) sobre comportamento da população durante a pandemia.",
+      "resource": "https://github.com/brenoazvd/PNAD_Covid19",
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "github",
+        "ibge",
+        "analise-de-dados",
+        "jupyter",
+        "publico"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [],
+      "flow": [],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "saas-oep-plataforma",
+      "type": "Project",
+      "title": "Plataforma SaaS interna (data → API → frontend)",
+      "description": "Plataforma interna full-stack de um grupo de escolas que centraliza captação, extracurricular, saúde e sustentabilidade, com camada de dados (ETL/Azure SQL), API (FastAPI) e frontend (React).",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "full-stack",
+        "fastapi",
+        "react",
+        "typescript",
+        "azure",
+        "etl",
+        "python"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-05T00:00:00.000Z",
+      "highlights": [
+        "Camada de dados: ETL em Python sincronizando TOTVS, CRM e outras fontes para Azure SQL; modelagem em star schema (fatos + dimensões).",
+        "API: FastAPI com 30+ endpoints organizados por módulo (captação, extracurricular, enfermaria, sustentabilidade, atualização cadastral), camada de repositories/services e autorização por escola/setor/projeto.",
+        "Frontend: React + TypeScript, componentes reutilizáveis, dashboards e módulos operacionais.",
+        "Deploy em VPS com Docker + nginx + SSL e CI/CD via GitHub Actions."
+      ],
+      "flow": [
+        "Fontes (TOTVS, CRM, etc.)",
+        "ETL (Python)",
+        "Azure SQL",
+        "API (FastAPI)",
+        "Frontend (React)",
+        "Deploy VPS (Docker + nginx)"
+      ],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "tutoria-risco-poc",
+      "type": "Project",
+      "title": "Tutoria: retenção e risco escolar (índice INDE)",
+      "description": "Plataforma de retenção e evasão escolar sobre dados TOTVS (Azure SQL), com índices compostos transparentes, um classificador de risco em ML e um instrumento de coleta com os tutores.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "machine-learning",
+        "data-science",
+        "python",
+        "azure-sql",
+        "streamlit",
+        "educacao"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-06T00:00:00.000Z",
+      "highlights": [
+        "Índice de desempenho transparente (INDE, escala 0 a 10) com sub-índices de desempenho acadêmico e de adequação idade-série, com pesos editáveis e recalculados na leitura.",
+        "Classificador de risco (scikit-learn) que estima a probabilidade de piora no período seguinte e grava o resultado para consulta.",
+        "Índice de retenção/evasão composto (IREV), somando sinais de desempenho, frequência, felicidade do aluno, financeiro e distância casa-escola, com pesos provisórios calibráveis pelo gestor.",
+        "Índice de vulnerabilidade de evasão a partir de sinais diretos definidos pela direção: notas, faltas, satisfação da família (NPS), suspensões, advertências, tarefas não feitas e distância.",
+        "Instrumento de observação para os tutores, em duas modalidades (individual por aluno e por turma), que gera índices de bem-estar e de clima de turma. Fluxo de rascunho retomável até a conclusão, com cadência configurável por colégio.",
+        "Classificação governada das ocorrências disciplinares em categorias de risco, editável pela interface, com regra para revisar tipos não reconhecidos.",
+        "Geocoding do endereço do aluno (OpenStreetMap/Nominatim, com cache) para medir a distância até a escola.",
+        "Painel multi-aba em Streamlit (13 telas) cobrindo cada índice, o modelo e o acompanhamento do engajamento dos tutores."
+      ],
+      "flow": [
+        "Base acadêmica (Azure SQL) + coleta dos tutores + geocoding",
+        "Pipeline de features e índices",
+        "Classificador de risco + índices compostos",
+        "Painel Streamlit"
+      ],
+      "hasOpenGaps": true
+    }
+  ],
+  "formacao": [
+    {
+      "slug": "fiap-data-science",
+      "type": "Education",
+      "title": "Tecnólogo em Data Science (Big Data, BI & Data Engineering) — FIAP",
+      "description": "Graduação tecnológica com foco em modelagem de dados, SQL, Python e arquitetura de dados. Média geral 8.93.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "formacao",
+        "fiap",
+        "data-science",
+        "graduacao"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [],
+      "flow": [],
+      "hasOpenGaps": false
+    },
+    {
+      "slug": "fiap-pos-tech-data-analytics",
+      "type": "Education",
+      "title": "Pós Tech em Data Analytics — FIAP Online",
+      "description": "Pós-graduação de 360h em Data Analytics, com foco prático em todo o ciclo de análise de dados.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "formacao",
+        "fiap",
+        "data-analytics",
+        "pos-graduacao"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [],
+      "flow": [],
+      "hasOpenGaps": false
+    }
+  ],
+  "certificacoes": [
+    {
+      "slug": "certificacoes",
+      "type": "Certification",
+      "title": "Certificações — Alura e FIAP",
+      "description": "Certificações em Python, Git/GitHub, Power BI, Machine Learning e Blockchain, concluídas entre 2024 e 2025.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "certificacao",
+        "alura",
+        "fiap",
+        "python",
+        "git",
+        "power-bi",
+        "machine-learning"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [],
+      "flow": [],
+      "hasOpenGaps": false
+    }
+  ]
+}
