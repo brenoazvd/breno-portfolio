@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T18:04:40.704Z",
+  "generatedAt": "2026-07-07T18:12:51.696Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
@@ -28,7 +28,7 @@
           "start_date": "2026-06",
           "end_date": "present",
           "highlights": [
-            "Promovido a Analista de Dados Pleno em jun/2026 por reconhecimento das soluções entregues.",
+            "Promovido a Analista de Dados Pleno em jun/2026, passando a atuar no nível do Grupo OEP, a rede de escolas à qual o Colégio Elvira Brandão pertence, e não mais só em uma unidade.",
             "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
             "Desenho de processos e entrega de soluções que conectam as bases de dados já existentes aos sistemas internos, originando novos projetos."
           ]
@@ -305,6 +305,7 @@
       "end": "present",
       "timestamp": "2026-07-07T00:00:00.000Z",
       "highlights": [
+        "Promoção que passou a atuação do nível de uma unidade para o do Grupo OEP, a rede de escolas à qual o Colégio Elvira Brandão pertence.",
         "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
         "Desenho de processos e entrega de soluções que conectam as bases de dados já existentes aos sistemas internos que a equipe desenvolve.",
         "Originação de novos projetos a partir dessa base de dados integrada."
