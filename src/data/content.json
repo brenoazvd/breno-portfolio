@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T18:27:08.092Z",
+  "generatedAt": "2026-07-08T18:38:08.700Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
@@ -29,7 +29,7 @@
           "end_date": "present",
           "highlights": [
             "Promovido a Analista de Dados Pleno com expansão da atuação para o nível corporativo do Grupo OEP, coordenando a inteligência de dados das escolas associadas.",
-            "Co-fundador e líder do Hub de Inovação, estruturando o departamento focado em unificar dados operacionais e de negócio.",
+            "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
             "Integração de múltiplos sistemas contratados que funcionavam de forma isolada (como TOTVS, Kommo CRM, Google Workspace e ferramentas de NPS e ESG), relacionando os dados em banco Azure SQL Server.",
             "Desenho de novos processos operacionais e desenvolvimento de sistemas internos e do portal de gestão do grupo utilizando Python (FastAPI), React e TypeScript."
           ]
@@ -308,7 +308,7 @@
       "timestamp": "2026-07-07T00:00:00.000Z",
       "highlights": [
         "Promoção que expandiu a atuação para o nível corporativo do Grupo OEP, coordenando a inteligência de dados das escolas associadas.",
-        "Co-fundador e líder do Hub de Inovação, estruturando o departamento focado em unificar dados operacionais e de negócio.",
+        "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
         "Integração de múltiplos sistemas contratados que funcionavam de forma isolada (como TOTVS, Kommo CRM, Google Workspace e ferramentas de NPS e ESG), relacionando os dados e centralizando as informações no banco de dados na nuvem (Azure SQL Database).",
         "Desenho de novos processos operacionais e desenvolvimento de sistemas internos e do portal de gestão do grupo utilizando Python (FastAPI), React e TypeScript.",
         "Conexão de bases de dados integradas diretamente a painéis e produtos digitais voltados para tomada de decisão estratégica dos diretores."
