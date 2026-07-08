@@ -14,7 +14,7 @@ export function Home() {
   return (
     <section>
       <img
-        src="/breno.jpg"
+        src="./breno.jpg"
         alt="Breno Rodrigues Azevedo"
         width={96}
         height={96}
