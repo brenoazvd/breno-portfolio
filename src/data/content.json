@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T17:33:15.022Z",
+  "generatedAt": "2026-07-08T17:44:09.399Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
@@ -58,7 +58,7 @@
             "Power BI, Looker Studio, SQL e automações em Python, gerando insights para otimização de processos.",
             "Integração de dados entre sistemas acadêmicos, administrativos e de captação, reduzindo retrabalho e inconsistências.",
             "Expansão e padronização das soluções para mais 4 escolas do grupo (Oswald de Andrade, Piaget, Crescer Sempre e Carandá Educação).",
-            "Estruturei o CRM Kommo (funil, automações) e dashboards de funil que deram ao comercial visibilidade e padronização, apoiando 3 escolas do grupo a baterem meta de captação — algumas voltando a atingir após anos sem bater."
+            "Estruturei o CRM Kommo (funil, automações) e dashboards de funil que deram ao comercial mais visibilidade e padronização. Com isso, 3 escolas do grupo bateram meta de captação, algumas voltando a atingir depois de anos sem conseguir."
           ]
         },
         {
@@ -69,7 +69,7 @@
           "end_date": "2025-04",
           "highlights": [
             "Estruturei o processo de captação de alunos no CRM Kommo: montei o funil de vendas e as automações de mensagem (Salesbot/WhatsApp) que padronizaram o atendimento aos leads.",
-            "Criei dashboards e automações de apoio ao comercial, dando visibilidade sobre funil e conversão para a tomada de decisão — trabalho que motivou a promoção a Analista de Dados."
+            "Criei dashboards e automações de apoio ao comercial, com visibilidade de funil e conversão para a tomada de decisão. Esse trabalho motivou a promoção a Analista de Dados."
           ]
         },
         {
@@ -340,7 +340,7 @@
         "Uso de Power BI, Looker Studio, Tableau, Excel, SQL e automações em Python.",
         "Integração entre sistemas acadêmicos, administrativos e de captação, reduzindo retrabalho e inconsistências.",
         "Desenvolvimento da [integração e automação sobre o CRM Kommo](../projetos/crm-proprio-captacao.md) (ETL, webhooks, calendar, e-mail) para o processo de captação de alunos.",
-        "A estruturação do Kommo e os dashboards de funil deram ao comercial visibilidade e padronização que apoiaram 3 escolas do grupo (as que adotaram o CRM) a baterem meta de captação — algumas voltando a atingir após anos sem bater.",
+        "A estruturação do Kommo e os dashboards de funil deram ao comercial visibilidade e padronização que apoiaram 3 escolas do grupo (as que adotaram o CRM) a baterem meta de captação. Algumas voltaram a atingir depois de anos sem conseguir.",
         "Expansão e padronização das soluções de dados para as 4 demais escolas do Grupo OEP (Oswald de Andrade, Piaget, Crescer Sempre, Carandá Educação), substituindo processos manuais em planilhas por dashboards automatizados e pipelines centralizados."
       ],
       "flow": [],
