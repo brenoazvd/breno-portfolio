@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T17:44:09.399Z",
+  "generatedAt": "2026-07-08T18:27:08.092Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
@@ -28,9 +28,10 @@
           "start_date": "2026-06",
           "end_date": "present",
           "highlights": [
-            "Promovido a Analista de Dados Pleno em jun/2026, passando a atuar no nível do Grupo OEP, a rede de escolas à qual o Colégio Elvira Brandão pertence, e não mais só em uma unidade.",
-            "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
-            "Desenho de processos e entrega de soluções que conectam as bases de dados já existentes aos sistemas internos, originando novos projetos."
+            "Promovido a Analista de Dados Pleno com expansão da atuação para o nível corporativo do Grupo OEP, coordenando a inteligência de dados das escolas associadas.",
+            "Co-fundador e líder do Hub de Inovação, estruturando o departamento focado em unificar dados operacionais e de negócio.",
+            "Integração de múltiplos sistemas contratados que funcionavam de forma isolada (como TOTVS, Kommo CRM, Google Workspace e ferramentas de NPS e ESG), relacionando os dados em banco Azure SQL Server.",
+            "Desenho de novos processos operacionais e desenvolvimento de sistemas internos e do portal de gestão do grupo utilizando Python (FastAPI), React e TypeScript."
           ]
         },
         {
@@ -306,10 +307,11 @@
       "end": "present",
       "timestamp": "2026-07-07T00:00:00.000Z",
       "highlights": [
-        "Promoção que passou a atuação do nível de uma unidade para o do Grupo OEP, a rede de escolas à qual o Colégio Elvira Brandão pertence.",
-        "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
-        "Desenho de processos e entrega de soluções que conectam as bases de dados já existentes aos sistemas internos que a equipe desenvolve.",
-        "Originação de novos projetos a partir dessa base de dados integrada."
+        "Promoção que expandiu a atuação para o nível corporativo do Grupo OEP, coordenando a inteligência de dados das escolas associadas.",
+        "Co-fundador e líder do Hub de Inovação, estruturando o departamento focado em unificar dados operacionais e de negócio.",
+        "Integração de múltiplos sistemas contratados que funcionavam de forma isolada (como TOTVS, Kommo CRM, Google Workspace e ferramentas de NPS e ESG), relacionando os dados e centralizando as informações no banco de dados na nuvem (Azure SQL Database).",
+        "Desenho de novos processos operacionais e desenvolvimento de sistemas internos e do portal de gestão do grupo utilizando Python (FastAPI), React e TypeScript.",
+        "Conexão de bases de dados integradas diretamente a painéis e produtos digitais voltados para tomada de decisão estratégica dos diretores."
       ],
       "flow": [],
       "hasOpenGaps": true
