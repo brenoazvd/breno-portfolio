@@ -23,13 +23,14 @@
       "experience": [
         {
           "company": "Grupo OEP",
-          "position": "Analista de Dados Pleno",
+          "position": "Analista de Dados Pleno (com atuação em Engenharia de Dados)",
           "location": "São Paulo, Brasil",
           "start_date": "2026-06",
           "end_date": "present",
           "highlights": [
             "Promovido a Analista de Dados Pleno com expansão da atuação para o nível corporativo do Grupo OEP, coordenando a inteligência de dados das escolas associadas.",
             "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
+            "Manutenção e evolução dos pipelines ETL que sincronizam TOTVS, Kommo e demais fontes para o Azure SQL, com execução agendada 4x ao dia.",
             "Integração de múltiplos sistemas contratados que funcionavam de forma isolada (como TOTVS, Kommo CRM, Google Workspace e ferramentas de NPS e ESG), relacionando os dados em banco Azure SQL Server.",
             "Desenho de novos processos operacionais e desenvolvimento de sistemas internos e do portal de gestão do grupo utilizando Python (FastAPI), React e TypeScript."
           ]
@@ -46,7 +47,7 @@
           ]
         },
         {
-          "company": "Colégio Elvira Brandão",
+          "company": "Grupo OEP",
           "position": "Analista de Dados (com atuação em Engenharia de Dados)",
           "location": "São Paulo, Brasil",
           "start_date": "2025-05",
@@ -292,7 +293,7 @@
     {
       "slug": "elvira-analista-dados-pleno",
       "type": "Experience",
-      "title": "Analista de Dados Pleno — Grupo OEP",
+      "title": "Analista de Dados Pleno (com atuação em Engenharia de Dados) — Grupo OEP",
       "description": "Liderança do Hub de Inovação, departamento que transforma os dados do grupo em processos e sistemas internos e origina novos projetos.",
       "resource": null,
       "repoPublic": false,
@@ -319,7 +320,7 @@
     {
       "slug": "elvira-analista-dados",
       "type": "Experience",
-      "title": "Analista de Dados Júnior — Colégio Elvira Brandão",
+      "title": "Analista de Dados Júnior (com atuação em Engenharia de Dados) — Grupo OEP",
       "description": "Estruturação da área de dados do grupo: pipelines ETL, dashboards, automação sobre o CRM Kommo e expansão das soluções para as 4 demais escolas do Grupo OEP.",
       "resource": null,
       "repoPublic": false,
