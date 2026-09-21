@@ -18,7 +18,7 @@
     ],
     "sections": {
       "summary": [
-        "Analista de dados com atuação em engenharia de dados, backend e automação. Estruturo dados de ponta a ponta: da modelagem do banco e dos pipelines ETL na nuvem (Azure) ao deploy da aplicação em VPS. Também construo automações, agentes de IA (servidores MCP, skills para coding agents) e dashboards que transformam dado bruto em decisão. Analista de dados pleno no Grupo OEP, onde lidero o Hub de Inovação, e fundador da Lumra Insights."
+        "Analista de dados com atuação em engenharia de dados, backend e automação. Estruturo dados de ponta a ponta: da modelagem do banco e dos pipelines ETL na nuvem (Azure) ao deploy da aplicação em VPS. Também construo automações, agentes de IA (servidores MCP, skills para coding agents) e dashboards que transformam dado bruto em decisão. Analista de dados pleno no Grupo OEP, onde lidero o Hub de Inovação."
       ],
       "experience": [
         {
@@ -33,17 +33,6 @@
             "Manutenção e evolução dos pipelines ETL que sincronizam TOTVS, Kommo e demais fontes para o Azure SQL, com execução agendada 4x ao dia.",
             "Integração de múltiplos sistemas contratados que funcionavam de forma isolada (como TOTVS, Kommo CRM, Google Workspace e ferramentas de NPS e ESG), relacionando os dados em banco Azure SQL Server.",
             "Desenho de novos processos operacionais e desenvolvimento de sistemas internos e do portal de gestão do grupo utilizando Python (FastAPI), React e TypeScript."
-          ]
-        },
-        {
-          "company": "Lumra Insights",
-          "position": "Fundador",
-          "location": "São Paulo, Brasil",
-          "start_date": "2026-01",
-          "end_date": "present",
-          "highlights": [
-            "Fundação, com um sócio, de uma iniciativa de software, dados e automação focada em transformar processos manuais em soluções digitais, com foco em impacto no terceiro setor.",
-            "Entregas: plataforma de gestão para agentes ambientais (para um instituto do terceiro setor, em produção) e um sistema de gestão financeira para clínicas (TypeScript + MySQL)."
           ]
         },
         {
