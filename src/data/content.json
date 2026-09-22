@@ -18,7 +18,7 @@
     ],
     "sections": {
       "summary": [
-        "Analista de dados com atuação em engenharia de dados, backend e automação. Estruturo dados de ponta a ponta: da modelagem do banco e dos pipelines ETL na nuvem (Azure) ao deploy da aplicação em VPS. Também construo automações, agentes de IA (servidores MCP, skills para coding agents) e dashboards que transformam dado bruto em decisão. Analista de dados pleno no Grupo OEP, onde lidero o Hub de Inovação."
+        "Analista de dados com atuação em engenharia de dados, backend e automação. Estruturo dados de ponta a ponta: da modelagem do banco e dos pipelines ETL na nuvem (Azure) ao deploy da aplicação em VPS. Também construo automações, agentes de IA (servidores MCP, skills para coding agents) e dashboards que transformam dado bruto em decisão. Analista de dados pleno no Grupo OEP, onde criei o Hub de Inovação e hoje atuo no desenvolvimento dos sistemas internos."
       ],
       "experience": [
         {
@@ -28,11 +28,11 @@
           "start_date": "2026-06",
           "end_date": "present",
           "highlights": [
-            "Promovido a Analista de Dados Pleno com expansão da atuação para o nível corporativo do Grupo OEP, coordenando a inteligência de dados das escolas associadas.",
-            "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
+            "Promovido a Analista de Dados Pleno, com expansão da atuação para o nível corporativo do Grupo OEP e as escolas associadas.",
+            "Desenvolvimento dos sistemas internos e do portal de gestão do grupo em Python (FastAPI), React e TypeScript, foco principal da atuação atual.",
             "Manutenção e evolução dos pipelines ETL que sincronizam TOTVS, Kommo e demais fontes para o Azure SQL, com execução agendada 4x ao dia.",
             "Integração de múltiplos sistemas contratados que funcionavam de forma isolada (como TOTVS, Kommo CRM, Google Workspace e ferramentas de NPS e ESG), relacionando os dados em banco Azure SQL Server.",
-            "Desenho de novos processos operacionais e desenvolvimento de sistemas internos e do portal de gestão do grupo utilizando Python (FastAPI), React e TypeScript."
+            "Criação do Hub de Inovação junto com um parceiro de trabalho, departamento montado para levar os dados do grupo além dos relatórios."
           ]
         },
         {
@@ -283,13 +283,13 @@
       "slug": "elvira-analista-dados-pleno",
       "type": "Experience",
       "title": "Analista de Dados Pleno (com atuação em Engenharia de Dados) — Grupo OEP",
-      "description": "Liderança do Hub de Inovação, departamento que transforma os dados do grupo em processos e sistemas internos e origina novos projetos.",
+      "description": "Criador do Hub de Inovação, departamento que transforma os dados do grupo em processos e sistemas internos. Atuação atual em desenvolvimento.",
       "resource": null,
       "repoPublic": false,
       "tags": [
         "experiencia",
         "data-engineering",
-        "lideranca",
+        "desenvolvimento",
         "hub-inovacao",
         "cargo-atual"
       ],
@@ -298,7 +298,7 @@
       "timestamp": "2026-07-07T00:00:00.000Z",
       "highlights": [
         "Promoção que expandiu a atuação para o nível corporativo do Grupo OEP, coordenando a inteligência de dados das escolas associadas.",
-        "Criação e liderança do Hub de Inovação, departamento montado com um parceiro de trabalho para levar os dados do grupo além dos relatórios.",
+        "Criação do Hub de Inovação junto com um parceiro de trabalho, departamento montado para levar os dados do grupo além dos relatórios.",
         "Integração de múltiplos sistemas contratados que funcionavam de forma isolada (como TOTVS, Kommo CRM, Google Workspace e ferramentas de NPS e ESG), relacionando os dados e centralizando as informações no banco de dados na nuvem (Azure SQL Database).",
         "Desenho de novos processos operacionais e desenvolvimento de sistemas internos e do portal de gestão do grupo utilizando Python (FastAPI), React e TypeScript.",
         "Conexão de bases de dados integradas diretamente a painéis e produtos digitais voltados para tomada de decisão estratégica dos diretores."
