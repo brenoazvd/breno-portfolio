@@ -31,8 +31,9 @@ export function Home() {
         Estruturo dados de ponta a ponta: da modelagem do banco e dos pipelines
         ETL na nuvem (Azure) ao deploy da aplicação em VPS. No caminho, construo
         automações, agentes de IA e dashboards que transformam dado bruto em
-        decisão. Analista de dados pleno no Grupo OEP, onde lidero o Hub de
-        Inovação, e fundador da Lumra Insights.
+        decisão. Analista de dados pleno no Grupo OEP, onde criei o Hub de
+        Inovação e hoje atuo no desenvolvimento dos sistemas internos, e
+        fundador da Lumra Insights.
       </p>
 
       <ul className="list-disc pl-5 marker:text-muted flex flex-col gap-1.5 mb-10 pt-6 border-t border-line max-w-[54ch]">
