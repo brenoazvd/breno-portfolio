@@ -24,8 +24,10 @@ interface SkillItem {
   details?: string;
 }
 interface LangItem {
+  label?: string;
   language?: string;
   fluency?: string;
+  details?: string;
 }
 const perfil = content.perfil as {
   name?: string;
@@ -39,7 +41,7 @@ const perfil = content.perfil as {
     education?: EduItem[];
     skills?: SkillItem[];
     languages?: LangItem[];
-    certifications?: { label?: string }[];
+    certifications?: { label?: string; details?: string }[];
   };
 } | null;
 
@@ -198,7 +200,9 @@ export function Curriculo() {
       {s.languages?.length ? (
         <Section title="Idiomas">
           <p className="text-sm text-muted">
-            {s.languages.map((l) => `${l.language} (${l.fluency})`).join(" · ")}
+            {s.languages
+              .map((l) => `${l.label ?? l.language} (${l.details ?? l.fluency})`)
+              .join(" · ")}
           </p>
         </Section>
       ) : null}
@@ -209,6 +213,7 @@ export function Curriculo() {
             {s.certifications.map((c, i) => (
               <li key={i} className="text-sm text-muted">
                 {c.label}
+                {c.details ? ` · ${c.details}` : null}
               </li>
             ))}
           </ul>
