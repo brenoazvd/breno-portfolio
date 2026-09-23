@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-23T03:04:05.423Z",
+  "generatedAt": "2026-09-23T20:27:49.225Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
     "email": "brenorazevedo@gmail.com",
     "phone": "+55 11 99886-8176",
-    "website": "https://www.linkedin.com/in/breno-azevedo-9109b8232",
+    "website": "https://brenoazvd.github.io/breno-portfolio",
     "social_networks": [
       {
         "network": "LinkedIn",
@@ -18,7 +18,7 @@
     ],
     "sections": {
       "summary": [
-        "Analista de dados com atuação em engenharia de dados, backend e automação. Estruturo dados de ponta a ponta: da modelagem do banco e dos pipelines ETL na nuvem (Azure) ao deploy da aplicação em VPS. Também construo automações, agentes de IA (servidores MCP, skills para coding agents) e dashboards que transformam dado bruto em decisão. Analista de dados pleno no Grupo OEP, onde criei o Hub de Inovação e hoje atuo no desenvolvimento dos sistemas internos."
+        "Analista de dados pleno no Grupo OEP, com atuação em engenharia de dados, backend e automação. Cuido do caminho inteiro do dado: modelo o banco, escrevo os pipelines de ETL (Extract, Transform, Load) no Azure e faço o deploy da aplicação em VPS Linux. Também construo automações, agentes de IA com servidores MCP e os painéis que a diretoria usa para decidir. Criei o Hub de Inovação do grupo e hoje atuo no desenvolvimento dos sistemas internos."
       ],
       "experience": [
         {
@@ -28,11 +28,11 @@
           "start_date": "2026-06",
           "end_date": "present",
           "highlights": [
-            "Promovido a Analista de Dados Pleno, com expansão da atuação para o nível corporativo do Grupo OEP e as escolas associadas.",
-            "Desenvolvimento dos sistemas internos e do portal de gestão do grupo em Python (FastAPI), React e TypeScript, foco principal da atuação atual.",
-            "Manutenção e evolução dos pipelines ETL que sincronizam TOTVS, Kommo e demais fontes para o Azure SQL, com execução agendada 4x ao dia.",
-            "Integração de múltiplos sistemas contratados que funcionavam de forma isolada (como TOTVS, Kommo CRM, Google Workspace e ferramentas de NPS e ESG), relacionando os dados em banco Azure SQL Server.",
-            "Criação do Hub de Inovação junto com um parceiro de trabalho, departamento montado para levar os dados do grupo além dos relatórios."
+            "Fui promovido a Analista de Dados Pleno e passei a atuar no nível corporativo do Grupo OEP, cobrindo as escolas associadas.",
+            "Desenvolvo os sistemas internos e o portal de gestão do grupo em Python (FastAPI), React e TypeScript, foco principal da minha atuação hoje.",
+            "Mantenho e evoluo os pipelines de ETL que sincronizam TOTVS, Kommo e demais fontes para o Azure SQL, com execução agendada 4x ao dia.",
+            "Integrei sistemas que funcionavam isolados (TOTVS, Kommo CRM, Google Workspace, ferramentas de NPS e ESG), consolidando os dados em Azure SQL Server.",
+            "Criei o Hub de Inovação junto com um parceiro de trabalho, departamento montado para levar os dados do grupo além dos relatórios."
           ]
         },
         {
@@ -42,14 +42,12 @@
           "start_date": "2025-05",
           "end_date": "2026-06",
           "highlights": [
-            "Estruturação da área de dados das instituições do grupo, com dashboards estratégicos e automações que aumentaram a eficiência operacional e suportaram a tomada de decisão.",
-            "Estruturei a operação de CRM (Kommo) para captação de alunos: funil de vendas, automações de jornada do lead (Salesbot/WhatsApp) e dashboards de funil e conversão. Com a visibilidade e padronização que isso deu ao comercial, 3 escolas do grupo bateram meta de captação, algumas voltando a atingir depois de anos sem conseguir.",
-            "Construção de pipelines de dados (ETL) integrando sistemas como TOTVS, CRM (Kommo) e bases externas, garantindo consistência e disponibilidade das informações.",
-            "Arquitetura de dados em nuvem (Azure), com foco em escalabilidade e centralização.",
-            "Modelagem de dados e criação de Data Marts para suporte a BI e aplicações internas.",
-            "Power BI, Looker Studio, SQL e automações em Python, gerando insights para otimização de processos.",
-            "Integração de dados entre sistemas acadêmicos, administrativos e de captação, reduzindo retrabalho e inconsistências.",
-            "Expansão e padronização das soluções para mais 4 escolas do grupo (Oswald de Andrade, Piaget, Crescer Sempre e Carandá Educação)."
+            "Estruturei a área de dados das instituições do grupo, com dashboards e automações que substituíram controle manual em planilha.",
+            "Estruturei a operação de CRM (Kommo) para captação: funil de vendas, automações de jornada do lead e dashboards de conversão. Com essa visibilidade, 3 escolas do grupo bateram meta de captação, algumas voltando a atingir depois de anos sem conseguir.",
+            "Construí os pipelines de ETL que integram TOTVS, CRM (Kommo) e bases externas.",
+            "Desenhei a arquitetura de dados em nuvem (Azure), com foco em escalabilidade e centralização.",
+            "Modelei os dados e criei os Data Marts que sustentam o BI (Business Intelligence) e as aplicações internas.",
+            "Expandi e padronizei as soluções de dados para mais 4 escolas do grupo."
           ]
         },
         {
@@ -70,10 +68,7 @@
           "start_date": "2024-05",
           "end_date": "2024-12",
           "highlights": [
-            "Desenvolvi e melhorei visualizações de dados utilizando Looker, Power BI e Excel, otimizando relatórios e auxiliando na tomada de decisões.",
-            "Ofereci suporte Helpdesk, gerenciei dispositivos e facilitei aulas maker.",
-            "Auxiliei na manutenção de sites educacionais e na instalação e remoção de softwares.",
-            "Analisei relatórios G Suite e facilitei a criação de projetos em Corel Draw e XYZ Pro."
+            "Construí visualizações em Looker, Power BI e Excel para relatórios de apoio à decisão."
           ]
         },
         {
@@ -83,9 +78,7 @@
           "start_date": "2023-06",
           "end_date": "2023-12",
           "highlights": [
-            "Atuei como atendente de informações gerais, aviso de sinistros, pagamentos e endossos e SAC, LGPD e ativo.",
-            "Ferramentas usadas: Salesforce, 3CX, Intergrall, Optimus e Tray Mutant.",
-            "Conhecimento em seguros residenciais e habitacionais."
+            "Atendi clientes de seguros em sinistros, pagamentos e endossos, com uso diário de Salesforce (CRM)."
           ]
         },
         {
@@ -107,9 +100,7 @@
           "start_date": "2025-05",
           "end_date": "2026-06",
           "highlights": [
-            "Foco prático em coleta, tratamento, análise exploratória, geração de insights e visualização de dados.",
-            "Estatística aplicada, storytelling com dados, business intelligence, DataOps e governança de dados.",
-            "Carga horária de 360 horas, duração de 10 meses."
+            "Estatística aplicada, análise exploratória, business intelligence, DataOps e governança de dados. 360 horas."
           ]
         },
         {
@@ -119,9 +110,7 @@
           "start_date": "2022-01",
           "end_date": "2024-12",
           "highlights": [
-            "Modelagem de dados relacionais, dimensionais e estatísticos; SQL e Python; visualização e qualificação de dados.",
-            "Disciplinas: Architecture Analytics & NoSQL, Big Data Architecture & Data Integration, Data Governance & Data Security, Data Warehousing, Cloud Solutions, Deep Learning & AI, entre outras.",
-            "Média geral: 8.93"
+            "Modelagem relacional, dimensional e estatística; SQL, Python, Data Warehousing e Cloud Solutions. Média geral 8.93."
           ]
         }
       ],
@@ -145,10 +134,6 @@
           "details": "Alura (mar/2025)"
         },
         {
-          "label": "Git e GitHub: compartilhando e colaborando em projetos",
-          "details": "Alura (mar/2025)"
-        },
-        {
           "label": "Git e GitHub: dominando controle de versão de código",
           "details": "Alura"
         },
@@ -161,66 +146,38 @@
           "details": "Alura (fev/2025)"
         },
         {
-          "label": "Blockchain",
-          "details": "FIAP (fev/2025)"
-        },
-        {
-          "label": "Python: aplicando a Orientação a Objetos",
-          "details": "Alura (nov/2024)"
-        },
-        {
-          "label": "Python: crie a sua primeira aplicação",
-          "details": "Alura (nov/2024)"
-        },
-        {
-          "label": "Power BI Desktop: construindo meu primeiro dashboard",
-          "details": "Alura"
-        },
-        {
           "label": "Python",
-          "details": "FIAP (out/2024)"
-        },
-        {
-          "label": "Formação Social e Sustentabilidade",
           "details": "FIAP (out/2024)"
         }
       ],
       "skills": [
         {
-          "label": "Data Engineering",
-          "details": "ETL (Extract, Transform, Load), pipelines de dados, features reutilizáveis, Data Marts, modelagem dimensional (Star Schema), DataOps, governança de dados"
-        },
-        {
-          "label": "CRM e dados de captação",
-          "details": "CRM (Customer Relationship Management) Kommo — funil, segmentação por etapa, automações, integração via API REST e webhooks; dashboards de funil e conversão"
-        },
-        {
           "label": "Linguagens e ferramentas",
-          "details": "Python (pandas, scikit-learn, FastAPI), SQL avançado (funções de janela, otimização de query, procedures)"
+          "details": "Python (pandas, scikit-learn, FastAPI), SQL avançado (funções de janela, otimização de query, procedures), TypeScript, React"
+        },
+        {
+          "label": "Machine Learning e modelagem",
+          "details": "Classificação e propensão, validação em hold-out, StratifiedKFold, calibração de probabilidade, AUC e matriz de confusão, controle de leakage, monitoramento de drift, scikit-learn"
+        },
+        {
+          "label": "Engenharia de dados",
+          "details": "ETL (Extract, Transform, Load), pipelines de dados, features reutilizáveis, Data Marts, modelagem dimensional (Star Schema), DataOps, governança de dados"
         },
         {
           "label": "BI e visualização",
           "details": "Power BI, Looker Studio, Tableau, Excel; construção de painéis analíticos e acompanhamento de KPI (Key Performance Indicator)"
         },
         {
-          "label": "Cloud e integração",
-          "details": "Azure (Azure SQL Database, Azure Functions), integração de múltiplas fontes de dados, API REST, webhooks, arquiteturas de microsserviços"
+          "label": "CRM e dados de captação",
+          "details": "CRM (Customer Relationship Management) Kommo, com funil, segmentação por etapa, automações, integração via API REST e webhooks; dashboards de funil e conversão"
         },
         {
-          "label": "Machine Learning e modelagem",
-          "details": "Classificação e propensão, validação em hold-out, StratifiedKFold, calibração de probabilidade, AUC e matriz de confusão, controle de leakage, monitoramento de drift, scikit-learn, árvores de decisão"
+          "label": "Cloud, integração e entrega",
+          "details": "Azure (Azure SQL Database, Azure Functions), API REST, webhooks, integração de múltiplas fontes; Docker, nginx, deploy em VPS Linux, CI/CD com GitHub Actions, Git e GitHub"
         },
         {
-          "label": "IA & Agentes",
-          "details": "Criação de agentes de IA, servidores MCP (Model Context Protocol), autoria de skills e subagents para coding agents (Claude Code, Codex, Antigravity), loop/context engineering"
-        },
-        {
-          "label": "DevOps e Cloud",
-          "details": "Deploy em VPS Linux (Docker, nginx, SSL), CI/CD com GitHub Actions, Azure Functions"
-        },
-        {
-          "label": "Versionamento",
-          "details": "Git, GitHub"
+          "label": "IA aplicada e agentes",
+          "details": "Criação de agentes de IA, servidores MCP (Model Context Protocol), autoria de skills e subagents para coding agents"
         }
       ]
     }
@@ -298,7 +255,7 @@
       "slug": "elvira-analista-dados-pleno",
       "type": "Experience",
       "title": "Analista de Dados Pleno (com atuação em Engenharia de Dados) — Grupo OEP",
-      "description": "Criador do Hub de Inovação, departamento que transforma os dados do grupo em processos e sistemas internos. Atuação atual em desenvolvimento.",
+      "description": "Criei o Hub de Inovação junto com um parceiro, departamento montado para levar os dados do grupo além dos relatórios. Hoje desenvolvo os sistemas internos e o portal de gestão em FastAPI, React e TypeScript.",
       "resource": null,
       "repoPublic": false,
       "tags": [
@@ -367,7 +324,7 @@
       "slug": "lumra-insights",
       "type": "Experience",
       "title": "Fundador — Lumra Insights",
-      "description": "Iniciativa de software, tecnologia e análise de dados que transforma processos manuais em soluções digitais, com foco em impacto no terceiro setor.",
+      "description": "Software e análise de dados sob demanda, com foco no terceiro setor. Entregas em produção: plataforma de gestão para agentes ambientais e sistema de gestão financeira para clínicas.",
       "resource": null,
       "repoPublic": false,
       "tags": [
@@ -431,7 +388,7 @@
       "title": "Datathon Passos Mágicos (Machine Learning)",
       "description": "Projeto de Machine Learning desenvolvido para o Datathon Passos Mágicos.",
       "resource": "https://github.com/brenoazvd/datathon-passos-magicos-ml",
-      "repoPublic": false,
+      "repoPublic": true,
       "tags": [
         "projeto",
         "github",
@@ -545,7 +502,7 @@
       "title": "Análise socioeconômica com dados do IBGE",
       "description": "Análise socioeconômica e financeira com dados do IBGE (Censo 2022) para as regiões do Colégio Elvira Brandão.",
       "resource": "https://github.com/brenoazvd/ibge_socioeconomico_elvira-brandao",
-      "repoPublic": false,
+      "repoPublic": true,
       "tags": [
         "projeto",
         "github",
@@ -567,7 +524,7 @@
       "title": "PNAD-COVID-19 (Data Analytics)",
       "description": "Projeto de Data Analytics com dados da PNAD-COVID-19 (IBGE) sobre comportamento da população durante a pandemia.",
       "resource": "https://github.com/brenoazvd/PNAD_Covid19",
-      "repoPublic": false,
+      "repoPublic": true,
       "tags": [
         "projeto",
         "github",

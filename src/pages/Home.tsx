@@ -25,15 +25,15 @@ export function Home() {
       />
       <p className="eyebrow mb-8">Breno Rodrigues Azevedo</p>
       <h1 className="font-display text-5xl leading-[1.08] tracking-tight text-balance mb-6">
-        Analista de dados que constrói a infraestrutura por trás da decisão.
+        Analista de dados que constrói o pipeline e o sistema em cima dele.
       </h1>
       <p className="text-lg text-muted leading-relaxed max-w-[54ch] mb-6 font-light">
-        Estruturo dados de ponta a ponta: da modelagem do banco e dos pipelines
-        ETL na nuvem (Azure) ao deploy da aplicação em VPS. No caminho, construo
-        automações, agentes de IA e dashboards que transformam dado bruto em
-        decisão. Analista de dados pleno no Grupo OEP, onde criei o Hub de
-        Inovação e hoje atuo no desenvolvimento dos sistemas internos, e
-        fundador da Lumra Insights.
+        Modelo o banco, escrevo os pipelines ETL no Azure e faço o deploy da
+        aplicação na VPS. Também construo automações, agentes de IA (servidores
+        MCP, skills para coding agents) e os painéis que a diretoria usa para
+        decidir. Analista de dados pleno no Grupo OEP, onde criei o Hub de
+        Inovação junto com um parceiro e hoje desenvolvo os sistemas internos em
+        FastAPI, React e TypeScript. Fundador da Lumra Insights.
       </p>
 
       <ul className="list-disc pl-5 marker:text-muted flex flex-col gap-1.5 mb-10 pt-6 border-t border-line max-w-[54ch]">
