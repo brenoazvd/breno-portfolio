@@ -68,6 +68,12 @@ body {
     margin: 0 !important;
   }
 
+  /* O <main> mantinha py-16 no papel, somando ~2,7cm de vazio ao topo. */
+  main { padding: 0 !important; }
+
+  /* .eyebrow em 0.75rem virava 7,9pt impresso: ilegível para "EXPERIÊNCIA". */
+  .cv-print .eyebrow { font-size: 10pt; letter-spacing: 0.14em; }
+
   a { color: #000; text-decoration: none; }
 
   /* Tudo em preto sólido no papel — as classes text-muted/text-ink/accent

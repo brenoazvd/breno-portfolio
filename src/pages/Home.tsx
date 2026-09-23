@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 const COMPETENCIAS = [
   "Pipelines ETL",
   "Modelagem de banco de dados (Azure SQL)",
-  "Azure (Functions, SQL, cloud)",
+  "Azure (Functions, SQL Database)",
   "Hospedagem e deploy em VPS (Docker, nginx, CI/CD)",
   "Criação de agentes de IA e servidores MCP",
-  "Machine learning aplicado",
+  "Machine learning (classificação, calibração, controle de leakage)",
   "Dashboards e BI (Power BI)",
 ];
 

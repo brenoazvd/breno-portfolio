@@ -1,4 +1,13 @@
+import { useEffect } from "react";
 export function Contato() {
+  useEffect(() => {
+    const anterior = document.title;
+    document.title = "Contato — Breno Rodrigues Azevedo";
+    return () => {
+      document.title = anterior;
+    };
+  }, []);
+
   return (
     <section>
       <p className="eyebrow mb-4">Contato</p>

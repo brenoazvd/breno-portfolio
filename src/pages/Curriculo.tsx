@@ -94,13 +94,24 @@ export function Curriculo() {
     <div className="cv-print">
       <div className="flex justify-between items-start mb-8 no-print">
         <p className="eyebrow">Currículo</p>
-        <button
-          type="button"
-          onClick={() => window.print()}
-          className="text-sm text-ink border-b border-line hover:border-accent pb-1"
-        >
-          Exportar PDF
-        </button>
+        <div className="flex items-center gap-5">
+          {/* PDF pronto: recrutador precisa anexar arquivo no ATS, e o
+              resultado do window.print() depende do navegador dele. */}
+          <a
+            href="./cv.pdf"
+            download="Curriculo - Breno Rodrigues Azevedo.pdf"
+            className="text-sm text-ink border-b border-line hover:border-accent pb-1"
+          >
+            Baixar PDF
+          </a>
+          <button
+            type="button"
+            onClick={() => window.print()}
+            className="text-sm text-muted border-b border-line hover:border-accent pb-1"
+          >
+            Imprimir
+          </button>
+        </div>
       </div>
 
       <header className="mb-10">

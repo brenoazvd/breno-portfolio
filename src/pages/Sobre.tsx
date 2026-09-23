@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import content from "../data/content.json";
 
 interface Exp {
@@ -32,6 +33,14 @@ function sortDesc(a: Exp, b: Exp): number {
 }
 
 export function Sobre() {
+  useEffect(() => {
+    const anterior = document.title;
+    document.title = "Trajetória — Breno Rodrigues Azevedo";
+    return () => {
+      document.title = anterior;
+    };
+  }, []);
+
   const exps = ([...content.experiencias] as Exp[])
     .filter((e) => e.start)
     .sort(sortDesc);

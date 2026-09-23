@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import content from "../data/content.json";
 import { FlowDiagram } from "../components/FlowDiagram";
 
@@ -9,6 +10,8 @@ interface Proj {
   flow: string[];
   resource: string | null;
   repoPublic: boolean;
+  start: string | null;
+  end: string | null;
 }
 
 // Ordem curada dos projetos profissionais (mais forte/recente primeiro).
@@ -43,10 +46,31 @@ function ordenar(projetos: Proj[]): { destaque: Proj[]; estudo: Proj[] } {
   return { destaque, estudo };
 }
 
+const MESES_P = [
+  "jan", "fev", "mar", "abr", "mai", "jun",
+  "jul", "ago", "set", "out", "nov", "dez",
+];
+
+// Periodo so aparece nos projetos de estudo: nos internos a data estreita
+// quem e o cliente, e o periodo ja consta no curriculo.
+function periodo(start: string | null, end: string | null): string {
+  if (!start) return "";
+  const fmt = (d: string) => {
+    const [y, m] = d.split("-");
+    const mi = Number(m) - 1;
+    return m && mi >= 0 && mi < 12 ? `${MESES_P[mi]} ${y}` : y;
+  };
+  if (!end || end === start) return fmt(start);
+  return `${fmt(start)} a ${fmt(end)}`;
+}
+
 function Card({ p }: { p: Proj }) {
   return (
     <article>
-      <h2 className="font-display text-2xl mb-2">{p.title}</h2>
+      <h3 className="font-display text-2xl mb-1">{p.title}</h3>
+      {periodo(p.start, p.end) && (
+        <p className="eyebrow mb-2">{periodo(p.start, p.end)}</p>
+      )}
       <p className="text-muted leading-relaxed max-w-[60ch] mb-4">
         {p.description}
       </p>
@@ -75,6 +99,14 @@ function Card({ p }: { p: Proj }) {
 }
 
 export function Projetos() {
+  useEffect(() => {
+    const anterior = document.title;
+    document.title = "Projetos — Breno Rodrigues Azevedo";
+    return () => {
+      document.title = anterior;
+    };
+  }, []);
+
   const { destaque, estudo } = ordenar(content.projetos as Proj[]);
 
   return (

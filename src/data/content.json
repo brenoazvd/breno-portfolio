@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T20:30:10.048Z",
+  "generatedAt": "2026-09-23T21:05:23.301Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
@@ -28,7 +28,7 @@
           "start_date": "2026-06",
           "end_date": "present",
           "highlights": [
-            "Fui promovido a Analista de Dados Pleno e passei a atuar no nível corporativo do Grupo OEP, cobrindo as escolas associadas.",
+            "Desenvolvi um classificador de propensão em Python e scikit-learn (HistGradientBoosting calibrado), com AUC de 0,81 em hold-out, controle de leakage documentado e monitoramento de drift por período.",
             "Desenvolvo os sistemas internos e o portal de gestão do grupo em Python (FastAPI), React e TypeScript, foco principal da minha atuação hoje.",
             "Mantenho e evoluo os pipelines de ETL que sincronizam TOTVS, Kommo e demais fontes para o Azure SQL, com execução agendada 4x ao dia.",
             "Integrei sistemas que funcionavam isolados (TOTVS, Kommo CRM, Google Workspace, ferramentas de NPS e ESG), consolidando os dados em Azure SQL Server.",
@@ -268,14 +268,21 @@
       "start": "2026-06",
       "end": "present",
       "timestamp": "2026-07-07T00:00:00.000Z",
-      "highlights": [],
+      "highlights": [
+        "Promoção que expandiu a atuação para o nível corporativo do Grupo OEP, coordenando a inteligência de dados das escolas associadas.",
+        "Criação do Hub de Inovação junto com um parceiro de trabalho, departamento montado para levar os dados do grupo além dos relatórios.",
+        "Integração de múltiplos sistemas contratados que funcionavam de forma isolada (como TOTVS, Kommo CRM, Google Workspace e ferramentas de NPS e ESG), relacionando os dados e centralizando as informações no banco de dados na nuvem (Azure SQL Database).",
+        "Desenho de novos processos operacionais e desenvolvimento de sistemas internos e do portal de gestão do grupo utilizando Python (FastAPI), React e TypeScript.",
+        "Manutenção e evolução dos pipelines ETL que sincronizam TOTVS, Kommo e demais fontes para o Azure SQL, com execução agendada 4x ao dia.",
+        "Conexão de bases de dados integradas diretamente a painéis e produtos digitais voltados para tomada de decisão estratégica dos diretores."
+      ],
       "flow": [],
       "hasOpenGaps": true
     },
     {
       "slug": "elvira-analista-dados",
       "type": "Experience",
-      "title": "Analista de Dados Júnior (com atuação em Engenharia de Dados) — Grupo OEP",
+      "title": "Analista de Dados (com atuação em Engenharia de Dados) — Grupo OEP",
       "description": "Estruturação da área de dados do grupo: pipelines ETL, dashboards, automação sobre o CRM Kommo e expansão das soluções para as 4 demais escolas do Grupo OEP.",
       "resource": null,
       "repoPublic": false,
@@ -290,7 +297,17 @@
       "start": "2025-05",
       "end": "2026-06",
       "timestamp": "2026-07-03T00:00:00.000Z",
-      "highlights": [],
+      "highlights": [
+        "Dashboards dinâmicos, relatórios estratégicos e automações que aceleraram a tomada de decisões.",
+        "Pipelines de dados (ETL) integrando TOTVS, CRM Kommo e bases externas.",
+        "Arquitetura de dados em nuvem (Azure), com foco em escalabilidade e centralização.",
+        "Modelagem de dados e criação de Data Marts para suporte a BI.",
+        "Uso de Power BI, Looker Studio, Tableau, Excel, SQL e automações em Python.",
+        "Integração entre sistemas acadêmicos, administrativos e de captação, reduzindo retrabalho e inconsistências.",
+        "Desenvolvimento da [integração e automação sobre o CRM Kommo](../projetos/crm-proprio-captacao.md) (ETL, webhooks, calendar, e-mail) para o processo de captação de alunos.",
+        "A estruturação do Kommo e os dashboards de funil deram ao comercial visibilidade e padronização que apoiaram 3 escolas do grupo (as que adotaram o CRM) a baterem meta de captação. Algumas voltaram a atingir depois de anos sem conseguir.",
+        "Expansão e padronização das soluções de dados para as 4 demais escolas do Grupo OEP (Oswald de Andrade, Piaget, Crescer Sempre, Carandá Educação), substituindo processos manuais em planilhas por dashboards automatizados e pipelines centralizados."
+      ],
       "flow": [],
       "hasOpenGaps": false
     },
@@ -366,15 +383,28 @@
       "start": null,
       "end": null,
       "timestamp": "2026-07-03T00:00:00.000Z",
-      "highlights": [],
-      "flow": [],
+      "highlights": [
+        "Resultado: com a visibilidade e a padronização que o funil e os dashboards deram ao comercial, 3 escolas do grupo bateram meta de captação, algumas voltando a atingir depois de anos sem conseguir.",
+        "ETL Kommo → Azure SQL: sincroniza leads, funil, tags, contatos via Azure Function agendada (4x/dia, intercalado com o ETL do TOTVS), com merge incremental e auto-heal (detecta escola com leads sem bridge e força refresh).",
+        "Automação \"Confirmação da Visita\": ao criar/remarcar task de Visita no Kommo, webhook grava data no lead, move etapa no funil, cria evento no Google Calendar (via service account + Domain-Wide Delegation) e envia e-mail HTML personalizado ao responsável (Gmail API).",
+        "Editor de templates de e-mail com biblioteca de arquivos (upload de imagem/PDF com validação de segurança: allowlist de tipo, sanitização anti-injection e limite anti-DoS) e anexo automático, sem serviço de e-mail transacional de terceiro.",
+        "Integração com o Salesbot do Kommo (mensagens automáticas via WhatsApp Business, lembretes de 24h, tags de status), automação desenhada pelo cliente dentro do Kommo, com pontos de integração sincronizados no webhook próprio.",
+        "Dashboards de funil e conversão a partir dos dados sincronizados (Power BI + API própria com métricas por consultor, mediana/p90 de tempo de resposta, etc.)."
+      ],
+      "flow": [
+        "Kommo (CRM + WhatsApp)",
+        "Webhook / ETL (Azure Function)",
+        "Azure SQL",
+        "API (FastAPI)",
+        "Dashboard + Google Calendar / Gmail"
+      ],
       "hasOpenGaps": true
     },
     {
       "slug": "datathon-passos-magicos-ml",
       "type": "Project",
       "title": "Datathon Passos Mágicos (Machine Learning)",
-      "description": "Projeto de Machine Learning desenvolvido para o Datathon Passos Mágicos.",
+      "description": "Pipeline em camadas Bronze, Silver e Gold sobre dados educacionais históricos, com modelagem de risco e app Streamlit para consulta de score por aluno.",
       "resource": "https://github.com/brenoazvd/datathon-passos-magicos-ml",
       "repoPublic": true,
       "tags": [
@@ -384,11 +414,16 @@
         "jupyter",
         "competicao"
       ],
-      "start": null,
-      "end": null,
+      "start": "2026-05",
+      "end": "2026-05",
       "timestamp": "2026-07-03T00:00:00.000Z",
       "highlights": [],
-      "flow": [],
+      "flow": [
+        "Dados educacionais históricos",
+        "Pipeline Bronze/Silver/Gold",
+        "EDA e modelagem de risco",
+        "App Streamlit de consulta de score"
+      ],
       "hasOpenGaps": true
     },
     {
@@ -473,7 +508,7 @@
         "Relatórios automatizados em PDF.",
         "Feedbacks da coordenação.",
         "Agenda e gestão de eventos.",
-        "Painel estratégico com indicadores em tempo real.",
+        "Painel de indicadores para a coordenação.",
         "Integração com API e suporte offline."
       ],
       "flow": [
@@ -499,11 +534,16 @@
         "python",
         "publico"
       ],
-      "start": null,
-      "end": null,
+      "start": "2025-11",
+      "end": "2026-01",
       "timestamp": "2026-07-03T00:00:00.000Z",
       "highlights": [],
-      "flow": [],
+      "flow": [
+        "Censo 2022 (IBGE)",
+        "Tratamento em Python",
+        "Recorte por região",
+        "Análise de renda e perfil econômico"
+      ],
       "hasOpenGaps": true
     },
     {
@@ -521,11 +561,16 @@
         "jupyter",
         "publico"
       ],
-      "start": null,
-      "end": null,
+      "start": "2026-01",
+      "end": "2026-01",
       "timestamp": "2026-07-03T00:00:00.000Z",
       "highlights": [],
-      "flow": [],
+      "flow": [
+        "Microdados PNAD-COVID-19 (IBGE)",
+        "Tratamento em Python",
+        "Análise exploratória",
+        "Conclusões sobre sintomas e impacto econômico"
+      ],
       "hasOpenGaps": true
     },
     {
@@ -568,7 +613,7 @@
       "slug": "tutoria-risco-poc",
       "type": "Project",
       "title": "Tutoria: retenção e risco escolar (índice INDE)",
-      "description": "Plataforma de retenção e evasão escolar sobre dados TOTVS (Azure SQL): índices compostos transparentes e um classificador de risco calibrado (AUC 0,81 em hold-out) com controle de leakage e monitoramento de drift.",
+      "description": "Prova de conceito de retenção e evasão escolar sobre dados TOTVS (Azure SQL): índices compostos transparentes e um classificador de risco calibrado (AUC 0,81 em hold-out) com controle de leakage e monitoramento de drift.",
       "resource": null,
       "repoPublic": false,
       "tags": [
@@ -585,8 +630,23 @@
       "start": null,
       "end": null,
       "timestamp": "2026-07-06T00:00:00.000Z",
-      "highlights": [],
-      "flow": [],
+      "highlights": [
+        "Classificador de risco calibrado com AUC de 0,81 em hold-out de 25%, com controle de leakage documentado feature a feature e monitoramento de drift por período.",
+        "Índice de desempenho transparente (INDE, escala 0 a 10) com sub-índices de desempenho acadêmico e de adequação idade-série, com pesos editáveis e recalculados na leitura.",
+        "Classificador de risco (scikit-learn) que estima a probabilidade de piora no período seguinte e grava o resultado para consulta.",
+        "Índice de retenção/evasão composto (IREV), somando sinais de desempenho, frequência, felicidade do aluno, financeiro e distância casa-escola, com pesos provisórios calibráveis pelo gestor.",
+        "Índice de vulnerabilidade de evasão a partir de sinais diretos definidos pela direção: notas, faltas, satisfação da família (NPS), suspensões, advertências, tarefas não feitas e distância.",
+        "Instrumento de observação para os tutores, em duas modalidades (individual por aluno e por turma), que gera índices de bem-estar e de clima de turma. Fluxo de rascunho retomável até a conclusão, com cadência configurável por colégio.",
+        "Classificação governada das ocorrências disciplinares em categorias de risco, editável pela interface, com regra para revisar tipos não reconhecidos.",
+        "Geocoding do endereço do aluno (OpenStreetMap/Nominatim, com cache) para medir a distância até a escola.",
+        "Painel multi-aba em Streamlit (13 telas) cobrindo cada índice, o modelo e o acompanhamento do engajamento dos tutores."
+      ],
+      "flow": [
+        "Base acadêmica (Azure SQL) + coleta dos tutores + geocoding",
+        "Pipeline de features e índices",
+        "Classificador de risco + índices compostos",
+        "Painel Streamlit"
+      ],
       "hasOpenGaps": true
     }
   ],
