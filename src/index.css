@@ -1,29 +1,30 @@
 @import "tailwindcss";
 
 /* Direção C — minimalista, elegante, calmo. Tokens em DESIGN.md. */
+/* Tema escuro assumido. O Tailwind v4 nao suporta @theme dentro de @media:
+   o bloco era achatado e a paleta clara nunca chegava ao build. Em vez de
+   manter 10 linhas de codigo morto, o escuro virou o tema unico. */
 @theme {
-  --color-ground: #ffffff;
-  --color-ink: #1a1a17;
-  --color-muted: #6b665e;
-  --color-line: #e5e2da;
-  --color-accent: #3f5c50;
+  --color-ground: #15140f;
+  --color-ink: #f2efe8;
+  --color-muted: #a29c90;
+  --color-line: #2c2a24;
+  --color-accent: #7fa394;
 
   --font-display: Georgia, "Times New Roman", serif;
   --font-body: system-ui, "Segoe UI", Roboto, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  @theme {
-    --color-ground: #15140f;
-    --color-ink: #f2efe8;
-    --color-muted: #a29c90;
-    --color-line: #2c2a24;
-    --color-accent: #7fa394;
-  }
+:root {
+  color-scheme: dark;
 }
 
-:root {
-  color-scheme: light dark;
+/* Links usavam --color-line (1.29:1 de contraste), abaixo do minimo de 3:1
+   da WCAG 1.4.11. Nao pareciam clicaveis. */
+main a,
+main button,
+footer a {
+  border-bottom-color: var(--color-muted);
 }
 
 body {

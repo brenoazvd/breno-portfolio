@@ -14,7 +14,7 @@ export function Layout() {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="border-b border-line no-print">
-        <nav className="max-w-[720px] mx-auto flex gap-8 px-6 py-6">
+        <nav className="max-w-[720px] mx-auto flex flex-wrap gap-x-6 gap-y-3 px-6 py-6">
           {LINKS.map((link) => (
             <Link
               key={link.to}

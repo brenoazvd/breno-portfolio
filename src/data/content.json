@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T20:27:49.225Z",
+  "generatedAt": "2026-09-23T20:30:10.048Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
@@ -366,20 +366,8 @@
       "start": null,
       "end": null,
       "timestamp": "2026-07-03T00:00:00.000Z",
-      "highlights": [
-        "ETL Kommo → Azure SQL: sincroniza leads, funil, tags, contatos via Azure Function agendada (4x/dia, intercalado com o ETL do TOTVS), com merge incremental e auto-heal (detecta escola com leads sem bridge e força refresh).",
-        "Automação \"Confirmação da Visita\": ao criar/remarcar task de Visita no Kommo, webhook grava data no lead, move etapa no funil, cria evento no Google Calendar (via service account + Domain-Wide Delegation) e envia e-mail HTML personalizado ao responsável (Gmail API).",
-        "Editor de templates de e-mail com biblioteca de arquivos (upload de imagem/PDF com validação de segurança: allowlist de tipo, sanitização anti-injection e limite anti-DoS) e anexo automático, sem dependência de infra externa.",
-        "Integração com o Salesbot do Kommo (mensagens automáticas via WhatsApp Business, lembretes de 24h, tags de status), automação desenhada pelo cliente dentro do Kommo, com pontos de integração sincronizados no webhook próprio.",
-        "Dashboards de funil e conversão a partir dos dados sincronizados (Power BI + API própria com métricas por consultor, mediana/p90 de tempo de resposta, etc.)."
-      ],
-      "flow": [
-        "Kommo (CRM + WhatsApp)",
-        "Webhook / ETL (Azure Function)",
-        "Azure SQL",
-        "API (FastAPI)",
-        "Dashboard + Google Calendar / Gmail"
-      ],
+      "highlights": [],
+      "flow": [],
       "hasOpenGaps": true
     },
     {

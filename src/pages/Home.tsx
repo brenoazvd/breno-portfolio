@@ -24,10 +24,10 @@ export function Home() {
         }}
       />
       <p className="eyebrow mb-8">Breno Rodrigues Azevedo</p>
-      <h1 className="font-display text-5xl leading-[1.08] tracking-tight text-balance mb-6">
+      <h1 className="font-display text-[2rem] sm:text-5xl leading-[1.08] tracking-tight text-balance mb-6">
         Analista de dados que constrói o pipeline e o sistema em cima dele.
       </h1>
-      <p className="text-lg text-muted leading-relaxed max-w-[54ch] mb-6 font-light">
+      <p className="text-lg text-ink leading-relaxed max-w-[54ch] mb-6">
         Modelo o banco, escrevo os pipelines ETL no Azure e faço o deploy da
         aplicação na VPS. Também construo automações, agentes de IA (servidores
         MCP, skills para coding agents) e os painéis que a diretoria usa para

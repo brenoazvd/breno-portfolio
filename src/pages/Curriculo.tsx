@@ -45,16 +45,23 @@ const perfil = content.perfil as {
   };
 } | null;
 
+const MESES_CV = [
+  "jan", "fev", "mar", "abr", "mai", "jun",
+  "jul", "ago", "set", "out", "nov", "dez",
+];
+
 function fmtDate(d?: string) {
   if (!d) return "";
   if (d === "present") return "atual";
-  return d; // já vem como YYYY-MM
+  const [y, m] = d.split("-");
+  const mi = Number(m) - 1;
+  return m && mi >= 0 && mi < 12 ? `${MESES_CV[mi]} ${y}` : y;
 }
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mb-8">
-      <h2 className="eyebrow mb-4 pb-2 border-b border-line">{title}</h2>
+      <h2 className="eyebrow text-[13px] font-semibold text-ink mb-4 pb-2 border-b border-line">{title}</h2>
       {children}
     </section>
   );
