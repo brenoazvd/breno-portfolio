@@ -43,13 +43,13 @@
           "end_date": "2026-06",
           "highlights": [
             "Estruturação da área de dados das instituições do grupo, com dashboards estratégicos e automações que aumentaram a eficiência operacional e suportaram a tomada de decisão.",
+            "Estruturei a operação de CRM (Kommo) para captação de alunos: funil de vendas, automações de jornada do lead (Salesbot/WhatsApp) e dashboards de funil e conversão. Com a visibilidade e padronização que isso deu ao comercial, 3 escolas do grupo bateram meta de captação, algumas voltando a atingir depois de anos sem conseguir.",
             "Construção de pipelines de dados (ETL) integrando sistemas como TOTVS, CRM (Kommo) e bases externas, garantindo consistência e disponibilidade das informações.",
             "Arquitetura de dados em nuvem (Azure), com foco em escalabilidade e centralização.",
             "Modelagem de dados e criação de Data Marts para suporte a BI e aplicações internas.",
             "Power BI, Looker Studio, SQL e automações em Python, gerando insights para otimização de processos.",
             "Integração de dados entre sistemas acadêmicos, administrativos e de captação, reduzindo retrabalho e inconsistências.",
-            "Expansão e padronização das soluções para mais 4 escolas do grupo (Oswald de Andrade, Piaget, Crescer Sempre e Carandá Educação).",
-            "Estruturei o CRM Kommo (funil, automações) e dashboards de funil que deram ao comercial mais visibilidade e padronização. Com isso, 3 escolas do grupo bateram meta de captação, algumas voltando a atingir depois de anos sem conseguir."
+            "Expansão e padronização das soluções para mais 4 escolas do grupo (Oswald de Andrade, Piaget, Crescer Sempre e Carandá Educação)."
           ]
         },
         {
@@ -59,7 +59,7 @@
           "start_date": "2025-01",
           "end_date": "2025-04",
           "highlights": [
-            "Estruturei o processo de captação de alunos no CRM Kommo: montei o funil de vendas e as automações de mensagem (Salesbot/WhatsApp) que padronizaram o atendimento aos leads.",
+            "Estruturei o processo de captação de alunos no CRM Kommo: modelagem do funil de vendas e automações de mensagem (Salesbot/WhatsApp) que padronizaram a jornada de atendimento ao lead.",
             "Criei dashboards e automações de apoio ao comercial, com visibilidade de funil e conversão para a tomada de decisão. Esse trabalho motivou a promoção a Analista de Dados."
           ]
         },
@@ -178,6 +178,10 @@
         {
           "label": "Data Engineering",
           "details": "ETL, Pipelines de dados, Data Marts, DataOps, Governança de dados"
+        },
+        {
+          "label": "CRM e dados de captação",
+          "details": "Kommo (funil, automações, integração via API e webhooks), dashboards de funil e conversão, análise de captação"
         },
         {
           "label": "Linguagens e ferramentas",
