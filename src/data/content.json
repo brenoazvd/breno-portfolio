@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T21:05:23.301Z",
+  "generatedAt": "2026-09-24T01:42:09.909Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
@@ -29,7 +29,7 @@
           "end_date": "present",
           "highlights": [
             "Desenvolvi um classificador de propensão em Python e scikit-learn (HistGradientBoosting calibrado), com AUC de 0,81 em hold-out, controle de leakage documentado e monitoramento de drift por período.",
-            "Desenvolvo os sistemas internos e o portal de gestão do grupo em Python (FastAPI), React e TypeScript, foco principal da minha atuação hoje.",
+            "Desenvolvo os sistemas internos e o portal de gestão do grupo em Python (FastAPI), React e TypeScript.",
             "Mantenho e evoluo os pipelines de ETL que sincronizam TOTVS, Kommo e demais fontes para o Azure SQL, com execução agendada 4x ao dia.",
             "Integrei sistemas que funcionavam isolados (TOTVS, Kommo CRM, Google Workspace, ferramentas de NPS e ESG), consolidando os dados em Azure SQL Server.",
             "Criei o Hub de Inovação junto com um parceiro de trabalho, departamento montado para levar os dados do grupo além dos relatórios."
@@ -153,7 +153,7 @@
       "skills": [
         {
           "label": "Linguagens e ferramentas",
-          "details": "Python (pandas, scikit-learn, FastAPI), SQL avançado (funções de janela, otimização de query, procedures), TypeScript, React"
+          "details": "Python (pandas, NumPy, scikit-learn, FastAPI), SQL avançado (funções de janela, otimização de query, procedures) em Azure SQL, MySQL e PostgreSQL, TypeScript, React"
         },
         {
           "label": "Machine Learning e modelagem",
@@ -364,6 +364,44 @@
   ],
   "projetos": [
     {
+      "slug": "azvd-toolkit",
+      "type": "Project",
+      "title": "azvd-toolkit (skills open source para agentes de IA)",
+      "description": "Toolkit open source (MIT) com 6 skills para agentes de IA, cobrindo orquestração, prompt engineering, graph engineering e auto-aprendizado, feitas para funcionar em qualquer ecossistema multi-agente.",
+      "resource": "https://github.com/brenoazvd/azvd-toolkit",
+      "repoPublic": true,
+      "tags": [
+        "projeto",
+        "github",
+        "open-source",
+        "ia",
+        "agentes",
+        "mcp",
+        "prompt-engineering",
+        "graph-engineering",
+        "python"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-09-23T00:00:00.000Z",
+      "highlights": [
+        "Seis skills composáveis, desenhadas para funcionar em qualquer ecossistema multi-agente em vez de depender de um host específico.",
+        "`skill-router`: porta de entrada, encontra a skill certa para o pedido, procurando primeiro no próprio toolkit e depois nas skills globais da máquina.",
+        "`orchestrator`: decide qual skill do toolkit usar e encadeia as chamadas.",
+        "`prompt-forge`: monta prompts por entrevista interativa, com um modo por tipo de pedido e critério objetivo de parada.",
+        "`prompt-blocks`: biblioteca de blocos de prompt, cada um guardando a lição do incidente que o originou.",
+        "`graph-engineering`: knowledge graphs e task graphs para orquestração multi-agente (fan-out, diamond, gate humano).",
+        "`self-learning`: colhe lições da sessão e as converte em blocos e rotas novas dentro das outras skills."
+      ],
+      "flow": [
+        "Pedido do usuário",
+        "skill-router",
+        "skill específica (forge / blocks / graph)",
+        "self-learning realimenta as skills"
+      ],
+      "hasOpenGaps": true
+    },
+    {
       "slug": "crm-proprio-captacao",
       "type": "Project",
       "title": "Integração e Automação do CRM Kommo (Captação de Alunos)",
@@ -384,12 +422,13 @@
       "end": null,
       "timestamp": "2026-07-03T00:00:00.000Z",
       "highlights": [
-        "Resultado: com a visibilidade e a padronização que o funil e os dashboards deram ao comercial, 3 escolas do grupo bateram meta de captação, algumas voltando a atingir depois de anos sem conseguir.",
+        "Resultado: o funil e os dashboards deram ao comercial visibilidade e padronização que apoiaram 3 escolas do grupo (as que adotaram o CRM) a baterem meta de captação. Algumas voltaram a atingir depois de anos sem conseguir. Contribuição, não causa única: depende do comercial.",
         "ETL Kommo → Azure SQL: sincroniza leads, funil, tags, contatos via Azure Function agendada (4x/dia, intercalado com o ETL do TOTVS), com merge incremental e auto-heal (detecta escola com leads sem bridge e força refresh).",
         "Automação \"Confirmação da Visita\": ao criar/remarcar task de Visita no Kommo, webhook grava data no lead, move etapa no funil, cria evento no Google Calendar (via service account + Domain-Wide Delegation) e envia e-mail HTML personalizado ao responsável (Gmail API).",
         "Editor de templates de e-mail com biblioteca de arquivos (upload de imagem/PDF com validação de segurança: allowlist de tipo, sanitização anti-injection e limite anti-DoS) e anexo automático, sem serviço de e-mail transacional de terceiro.",
         "Integração com o Salesbot do Kommo (mensagens automáticas via WhatsApp Business, lembretes de 24h, tags de status), automação desenhada pelo cliente dentro do Kommo, com pontos de integração sincronizados no webhook próprio.",
-        "Dashboards de funil e conversão a partir dos dados sincronizados (Power BI + API própria com métricas por consultor, mediana/p90 de tempo de resposta, etc.)."
+        "Dashboards de funil e conversão a partir dos dados sincronizados (Power BI + API própria com métricas por consultor, mediana/p90 de tempo de resposta, etc.).",
+        "ETL de extração em repositório próprio, separado da automação: puxa os dados do Kommo das três unidades do grupo por integração privada com token de longa duração, consolida em CSV e prepara a carga para o Azure SQL."
       ],
       "flow": [
         "Kommo (CRM + WhatsApp)",
@@ -427,29 +466,42 @@
       "hasOpenGaps": true
     },
     {
-      "slug": "elvirabe-totvs-sync-function",
+      "slug": "erp-pecuaria-offline-first",
       "type": "Project",
-      "title": "Sincronização TOTVS → Azure SQL",
-      "description": "ETL em Python que sincroniza dados acadêmicos/financeiros do TOTVS RM para Azure SQL, agendado (cron) e executado a partir da VPS.",
-      "resource": "https://github.com/brenoazvd/elvirabe-totvs-sync-function",
+      "title": "ERP de pecuária de corte, offline-first",
+      "description": "ERP para uma fazenda de pecuária de corte que opera sem rede num PWA local e sincroniza com o backend em VPS quando há conectividade, com leitura de brinco por bastão RFID.",
+      "resource": null,
       "repoPublic": false,
       "tags": [
         "projeto",
-        "github",
-        "azure",
-        "totvs",
-        "etl",
-        "python"
+        "offline-first",
+        "pwa",
+        "fastapi",
+        "postgresql",
+        "react",
+        "vite",
+        "typescript",
+        "rfid",
+        "agro"
       ],
       "start": null,
       "end": null,
-      "timestamp": "2026-07-03T00:00:00.000Z",
-      "highlights": [],
+      "timestamp": "2026-09-23T00:00:00.000Z",
+      "highlights": [
+        "Operação offline em PWA, com sincronização para o backend em VPS quando a conectividade volta.",
+        "Backend em FastAPI com as regras de negócio e schema PostgreSQL.",
+        "Painel web do escritório em React com Vite.",
+        "Integração com bastão RFID para leitura de brinco eletrônico.",
+        "Glossário de domínio (linguagem ubíqua) versionado junto ao código.",
+        "Validação ponta a ponta do fluxo de manejo, com as correções vindas dos achados do E2E."
+      ],
       "flow": [
-        "TOTVS RM",
-        "ETL na VPS (cron, 4x/dia)",
-        "Azure SQL",
-        "Camada NPS"
+        "Manejo no curral (PWA offline + RFID)",
+        "fila local",
+        "sincronização",
+        "API (FastAPI)",
+        "PostgreSQL",
+        "painel do escritório"
       ],
       "hasOpenGaps": true
     },
@@ -457,12 +509,12 @@
       "slug": "fin7",
       "type": "Project",
       "title": "Sistema de gestão financeira para clínicas",
-      "description": "Sistema de gestão financeira e operacional para clínicas em MySQL, integrando base própria com um sistema de gestão de clínicas de terceiro, entregue pela Lumra Insights.",
+      "description": "Sistema de gestão financeira e operacional para clínicas em MySQL, integrando base própria com um sistema de gestão de clínicas de terceiro.",
       "resource": null,
       "repoPublic": false,
       "tags": [
         "projeto",
-        "lumra",
+        "consultoria",
         "typescript",
         "mysql",
         "financeiro",
@@ -485,47 +537,51 @@
       "hasOpenGaps": true
     },
     {
-      "slug": "gerente-sustentavel",
+      "slug": "financeiro-terceiro-setor",
       "type": "Project",
-      "title": "Plataforma de gestão estratégica para agentes ambientais",
-      "description": "Plataforma em produção que centraliza operações de uma rede de agentes ambientais, desenvolvida com Erick Kaik Dantas Barbosa.",
-      "resource": "https://github.com/brenoazvd/gerente-sustentavel",
+      "title": "Sistema financeiro para uma organização sem fins lucrativos",
+      "description": "Sistema financeiro em FastAPI e PostgreSQL com painéis em React, substituindo uma ferramenta de controle paga, com identidade compartilhada por SSO entre as aplicações da organização.",
+      "resource": null,
       "repoPublic": false,
       "tags": [
         "projeto",
-        "github",
-        "azure",
+        "fastapi",
+        "postgresql",
+        "sqlalchemy",
+        "react",
+        "vite",
         "typescript",
-        "python",
-        "colaborativo",
-        "producao"
+        "docker",
+        "sso",
+        "sem-fins-lucrativos"
       ],
       "start": null,
       "end": null,
-      "timestamp": "2026-07-03T00:00:00.000Z",
+      "timestamp": "2026-09-23T00:00:00.000Z",
       "highlights": [
-        "Registro de atividades com participantes, horas e evidências.",
-        "Relatórios automatizados em PDF.",
-        "Feedbacks da coordenação.",
-        "Agenda e gestão de eventos.",
-        "Painel de indicadores para a coordenação.",
-        "Integração com API e suporte offline."
+        "API em FastAPI com SQLAlchemy 2 sobre PostgreSQL, separada por schema dentro do banco único do ecossistema.",
+        "Painéis em React com Vite, TypeScript, Tailwind e Recharts.",
+        "Pacote compartilhado de identidade: login, SSO por JWT comum às aplicações e papéis por projeto, com as decisões registradas em ADRs.",
+        "Criação idempotente de schemas no startup; migrations por Alembic.",
+        "Testes em pytest contra SQLite em memória, com os schemas montados por ATTACH.",
+        "Runbook do gate de segredos.",
+        "Deploy por Docker Compose em VPS."
       ],
       "flow": [
-        "Registro de atividades (agentes)",
-        "API (Python)",
-        "Azure SQL",
-        "Painel de indicadores + Relatórios PDF"
+        "Lançamento manual",
+        "API (FastAPI)",
+        "PostgreSQL",
+        "painéis (React + Recharts)"
       ],
       "hasOpenGaps": true
     },
     {
-      "slug": "ibge-socioeconomico-elvira-brandao",
+      "slug": "ibge-censo-2022",
       "type": "Project",
       "title": "Análise socioeconômica com dados do IBGE",
-      "description": "Análise socioeconômica e financeira com dados do IBGE (Censo 2022) para as regiões do Colégio Elvira Brandão.",
-      "resource": "https://github.com/brenoazvd/ibge_socioeconomico_elvira-brandao",
-      "repoPublic": true,
+      "description": "Análise socioeconômica e financeira com dados do IBGE (Censo 2022) para duas regiões da zona sul de São Paulo, com foco em renda, população e perfil econômico.",
+      "resource": null,
+      "repoPublic": false,
       "tags": [
         "projeto",
         "github",
@@ -543,6 +599,85 @@
         "Tratamento em Python",
         "Recorte por região",
         "Análise de renda e perfil econômico"
+      ],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "plataforma-polos-culturais",
+      "type": "Project",
+      "title": "Plataforma de gestão de polos de um projeto cultural",
+      "description": "Plataforma para gerir os polos de um projeto cultural de uma organização sem fins lucrativos, com inscrição pública de instituições, escopo por polo e aprovação centralizada na gestão.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "fastapi",
+        "postgresql",
+        "sqlalchemy",
+        "alembic",
+        "react",
+        "vite",
+        "tailwind",
+        "docker",
+        "sem-fins-lucrativos"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-09-23T00:00:00.000Z",
+      "highlights": [
+        "Formulário público de inscrição para instituições que querem receber o projeto, sem exigir conta.",
+        "Papéis com escopo: a gestão aprova tudo e o coordenador enxerga apenas o próprio polo, resolvido no banco.",
+        "Painel desenhado para ser impresso, porque o relatório para a diretoria sai em papel.",
+        "API em FastAPI com SQLAlchemy 2 e migrations por Alembic sobre PostgreSQL.",
+        "Frontend em React com Vite, Tailwind e Recharts.",
+        "Deploy por Docker Compose."
+      ],
+      "flow": [
+        "Inscrição pública",
+        "aprovação da gestão",
+        "polo ativo",
+        "acompanhamento por coordenador de polo",
+        "painel e relatório"
+      ],
+      "hasOpenGaps": true
+    },
+    {
+      "slug": "plataforma-solicitacoes-socioambiental",
+      "type": "Project",
+      "title": "Plataforma de solicitações de um projeto socioambiental",
+      "description": "Aplicação web para o fluxo de solicitações de um projeto socioambiental: página pública, área do solicitante e área administrativa com moderação, mais geração automática de documentos de KPI.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "fastapi",
+        "postgresql",
+        "sqlalchemy",
+        "alembic",
+        "react",
+        "vite",
+        "tailwind",
+        "docker",
+        "moderacao",
+        "sem-fins-lucrativos"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-09-23T00:00:00.000Z",
+      "highlights": [
+        "Página pública de entrada do projeto.",
+        "Área do solicitante: cadastro, abertura e acompanhamento de pedidos, e publicações.",
+        "Área administrativa com gestão de pedidos e moderação de conteúdo.",
+        "API em FastAPI com SQLAlchemy 2 e migrations por Alembic sobre PostgreSQL.",
+        "Frontend em React 18 com Vite, Tailwind 4, React Router e Recharts.",
+        "Scripts em Python que geram os documentos de KPI e de registro de ação a partir dos dados da plataforma, no lugar da montagem manual.",
+        "Deploy por Docker Compose em VPS, com script próprio de publicação."
+      ],
+      "flow": [
+        "Solicitante abre pedido",
+        "moderação na área administrativa",
+        "publicação",
+        "scripts geram KPI e registro de ação"
       ],
       "hasOpenGaps": true
     },
@@ -610,6 +745,33 @@
       "hasOpenGaps": true
     },
     {
+      "slug": "totvs-sync-etl",
+      "type": "Project",
+      "title": "Sincronização TOTVS → Azure SQL",
+      "description": "ETL em Python que sincroniza dados acadêmicos/financeiros do TOTVS RM para Azure SQL, agendado (cron) e executado a partir da VPS.",
+      "resource": null,
+      "repoPublic": false,
+      "tags": [
+        "projeto",
+        "github",
+        "azure",
+        "totvs",
+        "etl",
+        "python"
+      ],
+      "start": null,
+      "end": null,
+      "timestamp": "2026-07-03T00:00:00.000Z",
+      "highlights": [],
+      "flow": [
+        "TOTVS RM",
+        "ETL na VPS (cron, 4x/dia)",
+        "Azure SQL",
+        "Camada NPS"
+      ],
+      "hasOpenGaps": true
+    },
+    {
       "slug": "tutoria-risco-poc",
       "type": "Project",
       "title": "Tutoria: retenção e risco escolar (índice INDE)",
@@ -639,13 +801,13 @@
         "Instrumento de observação para os tutores, em duas modalidades (individual por aluno e por turma), que gera índices de bem-estar e de clima de turma. Fluxo de rascunho retomável até a conclusão, com cadência configurável por colégio.",
         "Classificação governada das ocorrências disciplinares em categorias de risco, editável pela interface, com regra para revisar tipos não reconhecidos.",
         "Geocoding do endereço do aluno (OpenStreetMap/Nominatim, com cache) para medir a distância até a escola.",
-        "Painel multi-aba em Streamlit (13 telas) cobrindo cada índice, o modelo e o acompanhamento do engajamento dos tutores."
+        "Painel multi-aba cobrindo cada índice, o modelo e o acompanhamento do engajamento dos tutores. Nasceu como POC em Streamlit (13 telas) e migrou para módulo da plataforma interna do grupo."
       ],
       "flow": [
         "Base acadêmica (Azure SQL) + coleta dos tutores + geocoding",
         "Pipeline de features e índices",
         "Classificador de risco + índices compostos",
-        "Painel Streamlit"
+        "Painel na plataforma interna"
       ],
       "hasOpenGaps": true
     }

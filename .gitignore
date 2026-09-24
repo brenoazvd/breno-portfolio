@@ -25,3 +25,6 @@ dist-ssr
 
 # impeccable (skill/tooling)
 .impeccable
+
+# Ferramental local de dev, nao pertence ao repositorio publico
+.claude/

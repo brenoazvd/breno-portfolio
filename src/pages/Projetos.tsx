@@ -23,11 +23,11 @@ const ORDEM = [
   "tutoria-risco-poc",
   "fin7",
   "gerente-sustentavel",
-  "elvirabe-totvs-sync-function",
+  "totvs-sync-etl",
 ];
 const ESTUDO = new Set([
   "datathon-passos-magicos-ml",
-  "ibge-socioeconomico-elvira-brandao",
+  "ibge-censo-2022",
   "pnad-covid19",
 ]);
 
