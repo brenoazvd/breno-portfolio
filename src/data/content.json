@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T01:42:09.909Z",
+  "generatedAt": "2026-09-24T01:52:56.386Z",
   "perfil": {
     "name": "Breno Rodrigues Azevedo",
     "location": "São Paulo, Brasil",
@@ -186,7 +186,7 @@
     {
       "slug": "caixa-residencial",
       "type": "Experience",
-      "title": "Atendente de Relacionamento Junior — Caixa Residencial",
+      "title": "Atendente de Relacionamento Junior, Caixa Residencial",
       "description": "Atendimento geral, sinistros e SAC em seguros residenciais e habitacionais.",
       "resource": null,
       "repoPublic": false,
@@ -208,7 +208,7 @@
     {
       "slug": "dmi-helpdesk",
       "type": "Experience",
-      "title": "Assistente de Helpdesk — DMI Tecnologia e Sistemas de SP",
+      "title": "Assistente de Helpdesk, DMI Tecnologia e Sistemas de SP",
       "description": "Suporte a ERP (faturamento, estoque, produção) e atendimento a usuários.",
       "resource": null,
       "repoPublic": false,
@@ -231,7 +231,7 @@
     {
       "slug": "elvira-administrativo-jr",
       "type": "Experience",
-      "title": "Analista Administrativo Júnior — Colégio Elvira Brandão",
+      "title": "Analista Administrativo Júnior, Colégio Elvira Brandão",
       "description": "Automações e dashboards de apoio a processos comerciais de captação.",
       "resource": null,
       "repoPublic": false,
@@ -254,7 +254,7 @@
     {
       "slug": "elvira-analista-dados-pleno",
       "type": "Experience",
-      "title": "Analista de Dados Pleno (com atuação em Engenharia de Dados) — Grupo OEP",
+      "title": "Analista de Dados Pleno (com atuação em Engenharia de Dados), Grupo OEP",
       "description": "Criei o Hub de Inovação junto com um parceiro, departamento montado para levar os dados do grupo além dos relatórios. Hoje desenvolvo os sistemas internos e o portal de gestão em FastAPI, React e TypeScript.",
       "resource": null,
       "repoPublic": false,
@@ -282,7 +282,7 @@
     {
       "slug": "elvira-analista-dados",
       "type": "Experience",
-      "title": "Analista de Dados (com atuação em Engenharia de Dados) — Grupo OEP",
+      "title": "Analista de Dados (com atuação em Engenharia de Dados), Grupo OEP",
       "description": "Estruturação da área de dados do grupo: pipelines ETL, dashboards, automação sobre o CRM Kommo e expansão das soluções para as 4 demais escolas do Grupo OEP.",
       "resource": null,
       "repoPublic": false,
@@ -314,7 +314,7 @@
     {
       "slug": "elvira-estagiario-ti",
       "type": "Experience",
-      "title": "Estagiário de TI — Colégio Elvira Brandão",
+      "title": "Estagiário de TI, Colégio Elvira Brandão",
       "description": "Suporte Helpdesk, visualização de dados e manutenção de sistemas educacionais.",
       "resource": null,
       "repoPublic": false,
@@ -340,7 +340,7 @@
     {
       "slug": "lumra-insights",
       "type": "Experience",
-      "title": "Fundador — Lumra Insights",
+      "title": "Fundador, Lumra Insights",
       "description": "Software e análise de dados sob demanda, com foco no terceiro setor. Entregas em produção: plataforma de gestão para agentes ambientais e sistema de gestão financeira para clínicas.",
       "resource": null,
       "repoPublic": false,
@@ -816,7 +816,7 @@
     {
       "slug": "fiap-data-science",
       "type": "Education",
-      "title": "Tecnólogo em Data Science (Big Data, BI & Data Engineering) — FIAP",
+      "title": "Tecnólogo em Data Science (Big Data, BI & Data Engineering), FIAP",
       "description": "Graduação tecnológica com foco em modelagem de dados, SQL, Python e arquitetura de dados. Média geral 8.93.",
       "resource": null,
       "repoPublic": false,
@@ -836,7 +836,7 @@
     {
       "slug": "fiap-pos-tech-data-analytics",
       "type": "Education",
-      "title": "Pós Tech em Data Analytics — FIAP Online",
+      "title": "Pós Tech em Data Analytics, FIAP Online",
       "description": "Pós-graduação de 360h em Data Analytics, com foco prático em todo o ciclo de análise de dados.",
       "resource": null,
       "repoPublic": false,
@@ -858,7 +858,7 @@
     {
       "slug": "certificacoes",
       "type": "Certification",
-      "title": "Certificações — Alura e FIAP",
+      "title": "Certificações, Alura e FIAP",
       "description": "Certificações em Python, Git/GitHub, Power BI, Machine Learning e Blockchain, concluídas entre 2024 e 2025.",
       "resource": null,
       "repoPublic": false,
